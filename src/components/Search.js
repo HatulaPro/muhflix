@@ -61,7 +61,7 @@ const Search = () => {
 			<br />
 			<div style={{ marginTop: '80px' }}>
 				<MovieListViewer
-					list={topMoviesOptions.slice(0, 20)}
+					list={topMoviesOptions.slice(0, 25)}
 					title={
 						Boolean(query) && (
 							<>
@@ -70,6 +70,7 @@ const Search = () => {
 						)
 					}
 					wrap
+					disableClick={pending}
 				/>
 			</div>
 		</div>

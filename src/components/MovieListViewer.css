@@ -29,9 +29,6 @@
 	opacity: 0;
 	flex-shrink: 9;
 }
-.item-enter-done {
-	transform: scale(1);
-}
 
 .item-exit-active {
 	width: 0;
@@ -40,7 +37,6 @@
 	overflow: hidden;
 	filter: grayscale(1);
 	flex-shrink: 9;
-	/* flex-grow: 0.5; */
 	flex-grow: 0;
 }
 .item-exit-done {
