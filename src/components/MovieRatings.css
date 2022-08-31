@@ -1,0 +1,31 @@
+.movieRatings {
+	padding: 8px;
+}
+
+.movieRatings_pair {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	vertical-align: middle;
+	padding: 6px;
+	background-color: #454545;
+	color: white;
+	justify-content: space-around;
+	height: 44px;
+}
+.movieRatings_pair:nth-of-type(2n + 1) {
+	background-color: #656565;
+}
+
+.movieRatings_pair span {
+	text-decoration: underline;
+}
+.movieRatings_pair > * {
+	line-height: 1;
+	display: block;
+}
+
+.movieRatings_image {
+	width: 64px;
+	max-height: 100%;
+}

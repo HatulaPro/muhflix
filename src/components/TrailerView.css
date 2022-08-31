@@ -1,0 +1,40 @@
+@keyframes showTrailer {
+	0% {
+		transform: translate(-150%, -50%);
+	}
+	100% {
+		background-color: #191919;
+	}
+}
+.trailerView_trailerViewerDiv {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 2;
+	transform: translate(-50%, -50%);
+	visibility: hidden;
+	transition: all 0.3s;
+	opacity: 0;
+	aspect-ratio: 2;
+}
+
+.trailerView_trailerViewerDivBG {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: -1;
+	background: #69696955;
+}
+
+.trailerView_trailerViewerDivShow {
+	visibility: visible;
+	opacity: 1;
+	background-color: #191919;
+	animation: showTrailer 0.5s forwards;
+}
+.trailerView_trailerViewerDiv iframe {
+	width: 858px;
+}

@@ -1,0 +1,19 @@
+.IMDBRating {
+	width: fit-content;
+	display: flex;
+	flex-direction: row;
+	gap: 6px;
+	justify-content: center;
+	align-items: center;
+}
+
+.IMDBRating .IMDBRating_IMDBLogo {
+	margin-right: 30px;
+}
+.IMDBRating .IMDBRating_IMDBStar {
+	color: #f5c518;
+}
+
+.IMDBRating span {
+	font-size: 1.3rem;
+}

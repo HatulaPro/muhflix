@@ -1,0 +1,48 @@
+.movieListViewer {
+	padding: 8px 20px;
+}
+.movieListViewer_list {
+	display: flex;
+	overflow-x: scroll;
+	margin: auto;
+	margin-top: 6px;
+	gap: 0.5rem;
+	transition: 0.2s all;
+}
+.movieListViewer_listWrapped {
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+}
+.movieListViewer_listWrapped > * {
+	transition: 300ms all ease-out;
+	flex: 0;
+	flex-grow: 0.5;
+}
+
+.item-enter-active {
+	transition: 0ms all ease-out;
+	transform: scale(0);
+	width: 0;
+	opacity: 0;
+	flex-shrink: 9;
+}
+.item-enter-done {
+	transform: scale(1);
+}
+
+.item-exit-active {
+	width: 0;
+	opacity: 0;
+	transform: scale(0);
+	overflow: hidden;
+	filter: grayscale(1);
+	flex-shrink: 9;
+	/* flex-grow: 0.5; */
+	flex-grow: 0;
+}
+.item-exit-done {
+	transform: scale(1);
+}

@@ -1,0 +1,1521 @@
+{
+	"items": [
+		{
+			"id": "tt12593682",
+			"title": "Bullet Train",
+			"fullTitle": "Bullet Train (2022)",
+			"year": "2022",
+			"releaseState": "05 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "127",
+			"runtimeStr": "127 mins",
+			"plot": "Five assassins aboard a fast moving bullet train find out their missions have something in common.",
+			"contentRating": "R",
+			"imDbRating": "7.5",
+			"imDbRatingCount": "54918",
+			"metacriticRating": "49",
+			"genres": "Action, Comedy, Thriller",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "David Leitch",
+			"directorList": [{ "id": "nm0500610", "name": "David Leitch" }],
+			"stars": "Brad Pitt, Joey King, Aaron Taylor-Johnson, Brian Tyree Henry",
+			"starList": [
+				{ "id": "nm0000093", "name": "Brad Pitt" },
+				{ "id": "nm1428821", "name": "Joey King" },
+				{ "id": "nm1093951", "name": "Aaron Taylor-Johnson" },
+				{ "id": "nm3109964", "name": "Brian Tyree Henry" }
+			]
+		},
+		{
+			"id": "tt10954984",
+			"title": "Nope",
+			"fullTitle": "Nope (2022)",
+			"year": "2022",
+			"releaseState": "22 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNGM1MDc3ZjgtODlkOS00NmZjLWJlOTItNGQ5OGFhN2JlNjgxXkEyXkFqcGdeQXVyNjk1Njg5NTA@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "130",
+			"runtimeStr": "130 mins",
+			"plot": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling discovery.",
+			"contentRating": "R",
+			"imDbRating": "7.3",
+			"imDbRatingCount": "48747",
+			"metacriticRating": "77",
+			"genres": "Horror, Mystery, Sci-Fi",
+			"genreList": [
+				{ "key": "Horror", "value": "Horror" },
+				{ "key": "Mystery", "value": "Mystery" },
+				{ "key": "Sci-Fi", "value": "Sci-Fi" }
+			],
+			"directors": "Jordan Peele",
+			"directorList": [{ "id": "nm1443502", "name": "Jordan Peele" }],
+			"stars": "Daniel Kaluuya, Keke Palmer, Brandon Perea, Michael Wincott",
+			"starList": [
+				{ "id": "nm2257207", "name": "Daniel Kaluuya" },
+				{ "id": "nm1551130", "name": "Keke Palmer" },
+				{ "id": "nm5155952", "name": "Brandon Perea" },
+				{ "id": "nm0000699", "name": "Michael Wincott" }
+			]
+		},
+		{
+			"id": "tt1745960",
+			"title": "Top Gun: Maverick",
+			"fullTitle": "Top Gun: Maverick (2022)",
+			"year": "2022",
+			"releaseState": "27 May 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOWQwOTA1ZDQtNzk3Yi00ZmVmLWFiZGYtNjdjNThiYjJhNzRjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "130",
+			"runtimeStr": "130 mins",
+			"plot": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in rank that would ground him.",
+			"contentRating": "PG-13",
+			"imDbRating": "8.5",
+			"imDbRatingCount": "290964",
+			"metacriticRating": "78",
+			"genres": "Action, Drama",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Drama", "value": "Drama" }
+			],
+			"directors": "Joseph Kosinski",
+			"directorList": [{ "id": "nm2676052", "name": "Joseph Kosinski" }],
+			"stars": "Tom Cruise, Jennifer Connelly, Miles Teller, Val Kilmer",
+			"starList": [
+				{ "id": "nm0000129", "name": "Tom Cruise" },
+				{ "id": "nm0000124", "name": "Jennifer Connelly" },
+				{ "id": "nm1886602", "name": "Miles Teller" },
+				{ "id": "nm0000174", "name": "Val Kilmer" }
+			]
+		},
+		{
+			"id": "tt3704428",
+			"title": "Elvis",
+			"fullTitle": "Elvis (2022)",
+			"year": "2022",
+			"releaseState": "24 Jun 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYzMzNTJjYmMtZTkxNS00MjI4LWI3YmQtOTQ4MDZjZDJlZjQyXkEyXkFqcGdeQXVyNjc0NzQzNTM@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "159",
+			"runtimeStr": "159 mins",
+			"plot": "The life of American music icon Elvis Presley, from his childhood to becoming a rock and movie star in the 1950s while maintaining a complex relationship with his manager, Colonel Tom Parker.",
+			"contentRating": "PG-13",
+			"imDbRating": "7.6",
+			"imDbRatingCount": "81073",
+			"metacriticRating": "64",
+			"genres": "Biography, Drama, Music",
+			"genreList": [
+				{ "key": "Biography", "value": "Biography" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Music", "value": "Music" }
+			],
+			"directors": "Baz Luhrmann",
+			"directorList": [{ "id": "nm0525303", "name": "Baz Luhrmann" }],
+			"stars": "Tom Hanks, Austin Butler, Olivia DeJonge, Helen Thomson",
+			"starList": [
+				{ "id": "nm0000158", "name": "Tom Hanks" },
+				{ "id": "nm2581521", "name": "Austin Butler" },
+				{ "id": "nm4609822", "name": "Olivia DeJonge" },
+				{ "id": "nm0861013", "name": "Helen Thomson" }
+			]
+		},
+		{
+			"id": "tt11851548",
+			"title": "Orphan: First Kill",
+			"fullTitle": "Orphan: First Kill (2022)",
+			"year": "2022",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BZjgwNDA3MmUtMTQ3Yy00ZDFmLTgwMTktNTBlMTQ3ZTI5MjYxXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "99",
+			"runtimeStr": "99 mins",
+			"plot": "After orchestrating a brilliant escape from an Estonian psychiatric facility, Esther travels to America by impersonating the missing daughter of a wealthy family.",
+			"contentRating": "R",
+			"imDbRating": "6.1",
+			"imDbRatingCount": "7844",
+			"metacriticRating": "53",
+			"genres": "Crime, Drama, Horror",
+			"genreList": [
+				{ "key": "Crime", "value": "Crime" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Horror", "value": "Horror" }
+			],
+			"directors": "William Brent Bell",
+			"directorList": [{ "id": "nm0068587", "name": "William Brent Bell" }],
+			"stars": "Isabelle Fuhrman, Julia Stiles, Rossif Sutherland, Hiro Kanagawa",
+			"starList": [
+				{ "id": "nm2265157", "name": "Isabelle Fuhrman" },
+				{ "id": "nm0005466", "name": "Julia Stiles" },
+				{ "id": "nm1160472", "name": "Rossif Sutherland" },
+				{ "id": "nm0437032", "name": "Hiro Kanagawa" }
+			]
+		},
+		{
+			"id": "tt7144666",
+			"title": "The Black Phone",
+			"fullTitle": "The Black Phone (2021)",
+			"year": "2021",
+			"releaseState": "24 Jun 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOWVmNTBiYTUtZWQ3Yi00ZDlhLTgyYjUtNzBhZjM3YjRiNGRkXkEyXkFqcGdeQXVyNzYyOTM1ODI@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "103",
+			"runtimeStr": "103 mins",
+			"plot": "After being abducted by a child killer and locked in a soundproof basement, a 13-year-old boy starts receiving calls on a disconnected phone from the killer's previous victims.",
+			"contentRating": "R",
+			"imDbRating": "7",
+			"imDbRatingCount": "90535",
+			"metacriticRating": "65",
+			"genres": "Horror, Thriller",
+			"genreList": [
+				{ "key": "Horror", "value": "Horror" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "Scott Derrickson",
+			"directorList": [{ "id": "nm0220600", "name": "Scott Derrickson" }],
+			"stars": "Mason Thames, Madeleine McGraw, Ethan Hawke, Jeremy Davies",
+			"starList": [
+				{ "id": "nm9296746", "name": "Mason Thames" },
+				{ "id": "nm6421259", "name": "Madeleine McGraw" },
+				{ "id": "nm0000160", "name": "Ethan Hawke" },
+				{ "id": "nm0001111", "name": "Jeremy Davies" }
+			]
+		},
+		{
+			"id": "tt0077631",
+			"title": "Grease",
+			"fullTitle": "Grease (1978)",
+			"year": "1978",
+			"releaseState": "16 Jun 1978",
+			"image": "https://m.media-amazon.com/images/M/MV5BZmUyMDEyOTgtZmUwOS00NTdkLThlNzctNTM1ODQ4M2VhMjdhXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "110",
+			"runtimeStr": "110 mins",
+			"plot": "Good girl Sandy Olsson and greaser Danny Zuko fell in love over the summer. When they unexpectedly discover they're now in the same high school, will they be able to rekindle their romance?",
+			"contentRating": "PG",
+			"imDbRating": "7.2",
+			"imDbRatingCount": "271708",
+			"metacriticRating": "70",
+			"genres": "Comedy, Musical, Romance",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Musical", "value": "Musical" },
+				{ "key": "Romance", "value": "Romance" }
+			],
+			"directors": "Randal Kleiser",
+			"directorList": [{ "id": "nm0459170", "name": "Randal Kleiser" }],
+			"stars": "John Travolta, Olivia Newton-John, Stockard Channing, Jeff Conaway",
+			"starList": [
+				{ "id": "nm0000237", "name": "John Travolta" },
+				{ "id": "nm0000556", "name": "Olivia Newton-John" },
+				{ "id": "nm0000330", "name": "Stockard Channing" },
+				{ "id": "nm0001063", "name": "Jeff Conaway" }
+			]
+		},
+		{
+			"id": "tt13223398",
+			"title": "Beast (I) (2022)",
+			"fullTitle": "Beast (I) (2022)",
+			"year": "I) (",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMmY5MDI2YmQtNDM0YS00ZWI3LTlmM2YtYWMzNjYyOWRiZGVhXkEyXkFqcGdeQXVyMTMzODk3NDU0._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "93",
+			"runtimeStr": "93 mins",
+			"plot": "A father and his two teenage daughters find themselves hunted by a massive rogue lion intent on proving that the Savanna has but one apex predator.",
+			"contentRating": "R",
+			"imDbRating": "5.9",
+			"imDbRatingCount": "3199",
+			"metacriticRating": "53",
+			"genres": "Adventure, Drama, Horror",
+			"genreList": [
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Horror", "value": "Horror" }
+			],
+			"directors": "Baltasar Kormákur",
+			"directorList": [{ "id": "nm0466349", "name": "Baltasar Kormákur" }],
+			"stars": "Liyabuya Gongo, Martin Munro, Daniel Hadebe, Thapelo Sebogodi",
+			"starList": [
+				{ "id": "nm13952911", "name": "Liyabuya Gongo" },
+				{ "id": "nm3678893", "name": "Martin Munro" },
+				{ "id": "nm2748615", "name": "Daniel Hadebe" },
+				{ "id": "nm5219139", "name": "Thapelo Sebogodi" }
+			]
+		},
+		{
+			"id": "tt10648342",
+			"title": "Thor: Love and Thunder",
+			"fullTitle": "Thor: Love and Thunder (2022)",
+			"year": "2022",
+			"releaseState": "08 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "118",
+			"runtimeStr": "118 mins",
+			"plot": "Thor enlists the help of Valkyrie, Korg and ex-girlfriend Jane Foster to fight Gorr the God Butcher, who intends to make the gods extinct.",
+			"contentRating": "PG-13",
+			"imDbRating": "6.7",
+			"imDbRatingCount": "168051",
+			"metacriticRating": "57",
+			"genres": "Action, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Taika Waititi",
+			"directorList": [{ "id": "nm0169806", "name": "Taika Waititi" }],
+			"stars": "Chris Hemsworth, Natalie Portman, Christian Bale, Tessa Thompson",
+			"starList": [
+				{ "id": "nm1165110", "name": "Chris Hemsworth" },
+				{ "id": "nm0000204", "name": "Natalie Portman" },
+				{ "id": "nm0000288", "name": "Christian Bale" },
+				{ "id": "nm1935086", "name": "Tessa Thompson" }
+			]
+		},
+		{
+			"id": "tt8110652",
+			"title": "Bodies Bodies Bodies",
+			"fullTitle": "Bodies Bodies Bodies (2022)",
+			"year": "2022",
+			"releaseState": "05 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYTA2ODg5ZjgtOTU2My00MzFkLWI0NzMtZmQ5MmRhMWU1NzhlXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "94",
+			"runtimeStr": "94 mins",
+			"plot": "When a group of rich 20-somethings plan a hurricane party at a remote family mansion, a party game turns deadly in this fresh and funny look at backstabbing, fake friends, and one party gone very, very wrong.",
+			"contentRating": "R",
+			"imDbRating": "6.7",
+			"imDbRatingCount": "4563",
+			"metacriticRating": "69",
+			"genres": "Comedy, Horror, Thriller",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Horror", "value": "Horror" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "Halina Reijn",
+			"directorList": [{ "id": "nm0717603", "name": "Halina Reijn" }],
+			"stars": "Amandla Stenberg, Maria Bakalova, Rachel Sennott, Chase Sui Wonders",
+			"starList": [
+				{ "id": "nm3964350", "name": "Amandla Stenberg" },
+				{ "id": "nm7210025", "name": "Maria Bakalova" },
+				{ "id": "nm6976735", "name": "Rachel Sennott" },
+				{ "id": "nm3681769", "name": "Chase Sui Wonders" }
+			]
+		},
+		{
+			"id": "tt10028196",
+			"title": "Laal Singh Chaddha",
+			"fullTitle": "Laal Singh Chaddha (2022)",
+			"year": "2022",
+			"releaseState": "11 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMmQ4OTEyOTctMmFkOC00N2M4LWIyMDEtN2Y1MzQ0NzMzNDJlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "159",
+			"runtimeStr": "159 mins",
+			"plot": "Laal Singh Chaddha, a simple man whose extraordinary journey will fill you with love, warmth, happiness and will also make you laugh.",
+			"contentRating": "PG-13",
+			"imDbRating": "5",
+			"imDbRatingCount": "156222",
+			"metacriticRating": "46",
+			"genres": "Comedy, Drama, Romance",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Romance", "value": "Romance" }
+			],
+			"directors": "Advait Chandan",
+			"directorList": [{ "id": "nm2378914", "name": "Advait Chandan" }],
+			"stars": "Aamir Khan, Shah Rukh Khan, Kareena Kapoor, Naga Chaitanya Akkineni",
+			"starList": [
+				{ "id": "nm0451148", "name": "Aamir Khan" },
+				{ "id": "nm0451321", "name": "Shah Rukh Khan" },
+				{ "id": "nm0004626", "name": "Kareena Kapoor" },
+				{ "id": "nm3602118", "name": "Naga Chaitanya Akkineni" }
+			]
+		},
+		{
+			"id": "tt15325794",
+			"title": "Fall",
+			"fullTitle": "Fall (2022)",
+			"year": "2022",
+			"releaseState": "12 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNGI3MWYwYjItNzZhYi00ZWIzLTkyMzYtN2JmNjg3ODg1NTg4XkEyXkFqcGdeQXVyMTMwMDA5ODU3._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "107",
+			"runtimeStr": "107 mins",
+			"plot": "Best friends Becky and Hunter find themselves at the top of a 2,000-foot radio tower.",
+			"contentRating": "PG-13",
+			"imDbRating": "6.5",
+			"imDbRatingCount": "1998",
+			"metacriticRating": "60",
+			"genres": "Thriller",
+			"genreList": [{ "key": "Thriller", "value": "Thriller" }],
+			"directors": "Scott Mann",
+			"directorList": [{ "id": "nm1470993", "name": "Scott Mann" }],
+			"stars": "Grace Caroline Currey, Virginia Gardner, Jeffrey Dean Morgan, Mason Gooding",
+			"starList": [
+				{ "id": "nm1534201", "name": "Grace Caroline Currey" },
+				{ "id": "nm4722966", "name": "Virginia Gardner" },
+				{ "id": "nm0604742", "name": "Jeffrey Dean Morgan" },
+				{ "id": "nm2864252", "name": "Mason Gooding" }
+			]
+		},
+		{
+			"id": "tt9411972",
+			"title": "Where the Crawdads Sing",
+			"fullTitle": "Where the Crawdads Sing (2022)",
+			"year": "2022",
+			"releaseState": "15 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTJmNGJmYTgtYjAxNy00YmMzLTk2YTYtMGIzMmUwNDMyMTY1XkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "125",
+			"runtimeStr": "125 mins",
+			"plot": "A woman who raised herself in the marshes of the deep South becomes a suspect in the murder of a man she was once involved with.",
+			"contentRating": "PG-13",
+			"imDbRating": "7.1",
+			"imDbRatingCount": "13127",
+			"metacriticRating": "43",
+			"genres": "Drama, Mystery, Thriller",
+			"genreList": [
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Mystery", "value": "Mystery" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "Olivia Newman",
+			"directorList": [{ "id": "nm3229507", "name": "Olivia Newman" }],
+			"stars": "Daisy Edgar-Jones, Taylor John Smith, Harris Dickinson, David Strathairn",
+			"starList": [
+				{ "id": "nm8402992", "name": "Daisy Edgar-Jones" },
+				{ "id": "nm4973896", "name": "Taylor John Smith" },
+				{ "id": "nm6170168", "name": "Harris Dickinson" },
+				{ "id": "nm0000657", "name": "David Strathairn" }
+			]
+		},
+		{
+			"id": "tt8041270",
+			"title": "Jurassic World Dominion",
+			"fullTitle": "Jurassic World Dominion (2022)",
+			"year": "2022",
+			"releaseState": "10 Jun 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTBjMjA4NmYtN2RjMi00YWZlLTliYTktOTIwMmNkYjYxYmE1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "147",
+			"runtimeStr": "147 mins",
+			"plot": "Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood, while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.",
+			"contentRating": "PG-13",
+			"imDbRating": "5.7",
+			"imDbRatingCount": "119485",
+			"metacriticRating": "38",
+			"genres": "Action, Adventure, Sci-Fi",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Sci-Fi", "value": "Sci-Fi" }
+			],
+			"directors": "Colin Trevorrow",
+			"directorList": [{ "id": "nm1119880", "name": "Colin Trevorrow" }],
+			"stars": "Chris Pratt, Bryce Dallas Howard, Laura Dern, Sam Neill",
+			"starList": [
+				{ "id": "nm0695435", "name": "Chris Pratt" },
+				{ "id": "nm0397171", "name": "Bryce Dallas Howard" },
+				{ "id": "nm0000368", "name": "Laura Dern" },
+				{ "id": "nm0000554", "name": "Sam Neill" }
+			]
+		},
+		{
+			"id": "tt14614892",
+			"title": "Dragon Ball Super: Super Hero",
+			"fullTitle": "Dragon Ball Super: Super Hero (2022)",
+			"year": "2022",
+			"releaseState": "18 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYmQ1Y2Y4NmItY2E4Mi00ZmM2LWFiOTEtMGVmMDRhN2ZiODU0XkEyXkFqcGdeQXVyNTkxMzEwMzU@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "100",
+			"runtimeStr": "100 mins",
+			"plot": "The Red Ribbon Army from Goku's past has returned with two new androids to challenge him and his friends.",
+			"contentRating": "PG-13",
+			"imDbRating": "7.3",
+			"imDbRatingCount": "3583",
+			"metacriticRating": "65",
+			"genres": "Animation, Action, Adventure",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" }
+			],
+			"directors": "Tetsuro Kodama",
+			"directorList": [{ "id": "nm10429652", "name": "Tetsuro Kodama" }],
+			"stars": "Masako Nozawa, Toshio Furukawa, Yûko Minaguchi, Ryô Horikawa",
+			"starList": [
+				{ "id": "nm0637586", "name": "Masako Nozawa" },
+				{ "id": "nm0299192", "name": "Toshio Furukawa" },
+				{ "id": "nm0590888", "name": "Yûko Minaguchi" },
+				{ "id": "nm0394690", "name": "Ryô Horikawa" }
+			]
+		},
+		{
+			"id": "tt8912936",
+			"title": "DC League of Super-Pets",
+			"fullTitle": "DC League of Super-Pets (2022)",
+			"year": "2022",
+			"releaseState": "29 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYWI2NDg5M2MtMGMwYS00NzU1LWI1YzktYTg0ZDEwMjY4YmUwXkEyXkFqcGdeQXVyMTMzODk3NDU0._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "105",
+			"runtimeStr": "105 mins",
+			"plot": "Krypto the Super-Dog and Superman are inseparable best friends, sharing the same superpowers and fighting crime side by side in Metropolis. However, Krypto must master his own powers for a rescue mission when Superman is kidnapped.",
+			"contentRating": "PG",
+			"imDbRating": "7.9",
+			"imDbRatingCount": "35301",
+			"metacriticRating": "56",
+			"genres": "Animation, Action, Adventure",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" }
+			],
+			"directors": "Jared Stern, Sam J. Levine",
+			"directorList": [
+				{ "id": "nm2972864", "name": "Jared Stern" },
+				{ "id": "nm0505946", "name": "Sam J. Levine" }
+			],
+			"stars": "Dwayne Johnson, Kevin Hart, Kate McKinnon, John Krasinski",
+			"starList": [
+				{ "id": "nm0425005", "name": "Dwayne Johnson" },
+				{ "id": "nm0366389", "name": "Kevin Hart" },
+				{ "id": "nm0571952", "name": "Kate McKinnon" },
+				{ "id": "nm1024677", "name": "John Krasinski" }
+			]
+		},
+		{
+			"id": "tt5113044",
+			"title": "Minions: The Rise of Gru",
+			"fullTitle": "Minions: The Rise of Gru (2022)",
+			"year": "2022",
+			"releaseState": "01 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BZDQyODUwM2MtNzA0YS00ZjdmLTgzMjItZWRjN2YyYWE5ZTNjXkEyXkFqcGdeQXVyMTI2MzY1MjM1._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "87",
+			"runtimeStr": "87 mins",
+			"plot": "The untold story of one twelve-year-old's dream to become the world's greatest supervillain.",
+			"contentRating": "PG",
+			"imDbRating": "6.6",
+			"imDbRatingCount": "44875",
+			"metacriticRating": "56",
+			"genres": "Animation, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Kyle Balda, Brad Ableson, Jonathan del Val",
+			"directorList": [
+				{ "id": "nm0049633", "name": "Kyle Balda" },
+				{ "id": "nm1556070", "name": "Brad Ableson" },
+				{ "id": "nm3646390", "name": "Jonathan del Val" }
+			],
+			"stars": "Steve Carell, Pierre Coffin, Alan Arkin, Taraji P. Henson",
+			"starList": [
+				{ "id": "nm0136797", "name": "Steve Carell" },
+				{ "id": "nm1853544", "name": "Pierre Coffin" },
+				{ "id": "nm0000273", "name": "Alan Arkin" },
+				{ "id": "nm0378245", "name": "Taraji P. Henson" }
+			]
+		},
+		{
+			"id": "tt13664684",
+			"title": "Karthikeya 2",
+			"fullTitle": "Karthikeya 2 (2022)",
+			"year": "2022",
+			"releaseState": "13 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BODY2OTkwMTAtNjY2Yi00MzUzLWFiMGItZGZiMGE2NGM0M2E3XkEyXkFqcGdeQXVyMTI3NDUwMjc0._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "150",
+			"runtimeStr": "150 mins",
+			"plot": "A sequel to mystic thriller Karthikeya, which deals with the personal problems of Karthik and how he comes out of them. His pursuit of the truth leads him to find out the power of Indian ancient system and Tatva of Lord Sri Krishna.",
+			"contentRating": "",
+			"imDbRating": "8.6",
+			"imDbRatingCount": "47128",
+			"metacriticRating": "",
+			"genres": "Action, Adventure, Fantasy",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Fantasy", "value": "Fantasy" }
+			],
+			"directors": "Chandoo Mondeti",
+			"directorList": [{ "id": "nm6649966", "name": "Chandoo Mondeti" }],
+			"stars": "Nikhil Siddharth, Harsha Chemudu, Darbha Appaji Ambarisha, Anupam Kher",
+			"starList": [
+				{ "id": "nm2981266", "name": "Nikhil Siddharth" },
+				{ "id": "nm7337648", "name": "Harsha Chemudu" },
+				{ "id": "nm7896239", "name": "Darbha Appaji Ambarisha" },
+				{ "id": "nm0451600", "name": "Anupam Kher" }
+			]
+		},
+		{
+			"id": "tt14596320",
+			"title": "Spin Me Round",
+			"fullTitle": "Spin Me Round (2022)",
+			"year": "2022",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjRiMjdlYzAtZjE0YS00NTIyLThmZjItNThhM2FmYWFmNWE2XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "104",
+			"runtimeStr": "104 mins",
+			"plot": "A woman wins an all-expenses-paid trip to a company's gorgeous \"institute\" outside of Florence, and also the chance to meet the restaurant chain's wealthy and charismatic owner. She finds a different adventure than the one she imagined.",
+			"contentRating": "Unrated",
+			"imDbRating": "5.1",
+			"imDbRatingCount": "802",
+			"metacriticRating": "58",
+			"genres": "Comedy",
+			"genreList": [{ "key": "Comedy", "value": "Comedy" }],
+			"directors": "Jeff Baena",
+			"directorList": [{ "id": "nm1337885", "name": "Jeff Baena" }],
+			"stars": "Alison Brie, Jake Picking, Stella Chestnut, Lil Rel Howery",
+			"starList": [
+				{ "id": "nm1555340", "name": "Alison Brie" },
+				{ "id": "nm4917623", "name": "Jake Picking" },
+				{ "id": "nm6699059", "name": "Stella Chestnut" },
+				{ "id": "nm2577076", "name": "Lil Rel Howery" }
+			]
+		},
+		{
+			"id": "tt15255876",
+			"title": "Emily the Criminal",
+			"fullTitle": "Emily the Criminal (2022)",
+			"year": "2022",
+			"releaseState": "12 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOGI4ODQwYjUtZTA4Mi00YTljLWE4MzItM2M4OGJiNTFkZjIyXkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "93",
+			"runtimeStr": "93 mins",
+			"plot": "Down on her luck and saddled with debt, Emily gets involved in a credit card scam that pulls her into the criminal underworld of Los Angeles, ultimately leading to deadly consequences.",
+			"contentRating": "R",
+			"imDbRating": "7.1",
+			"imDbRatingCount": "1283",
+			"metacriticRating": "75",
+			"genres": "Crime, Drama, Thriller",
+			"genreList": [
+				{ "key": "Crime", "value": "Crime" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "John Patton Ford",
+			"directorList": [{ "id": "nm3621304", "name": "John Patton Ford" }],
+			"stars": "Aubrey Plaza, Theo Rossi, Bernardo Badillo, Jonathan Avigdori",
+			"starList": [
+				{ "id": "nm2201555", "name": "Aubrey Plaza" },
+				{ "id": "nm0744331", "name": "Theo Rossi" },
+				{ "id": "nm2224519", "name": "Bernardo Badillo" },
+				{ "id": "nm1722382", "name": "Jonathan Avigdori" }
+			]
+		},
+		{
+			"id": "tt5151570",
+			"title": "Mrs Harris Goes to Paris",
+			"fullTitle": "Mrs Harris Goes to Paris (2022)",
+			"year": "2022",
+			"releaseState": "15 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BY2UyOWJjMWEtNmIwYS00ZjM5LWEyYjMtMTI4NDBhMzViNmIyXkEyXkFqcGdeQXVyMDA4NzMyOA@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "115",
+			"runtimeStr": "115 mins",
+			"plot": "A widowed cleaning lady in 1950s London falls madly in love with a couture Dior dress, and decides that she must have one of her own.",
+			"contentRating": "PG",
+			"imDbRating": "7.1",
+			"imDbRatingCount": "3541",
+			"metacriticRating": "70",
+			"genres": "Comedy, Drama",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Drama", "value": "Drama" }
+			],
+			"directors": "Anthony Fabian",
+			"directorList": [{ "id": "nm0003745", "name": "Anthony Fabian" }],
+			"stars": "Lesley Manville, Isabelle Huppert, Lambert Wilson, Alba Baptista",
+			"starList": [
+				{ "id": "nm0544334", "name": "Lesley Manville" },
+				{ "id": "nm0001376", "name": "Isabelle Huppert" },
+				{ "id": "nm0933727", "name": "Lambert Wilson" },
+				{ "id": "nm4926180", "name": "Alba Baptista" }
+			]
+		},
+		{
+			"id": "tt14330236",
+			"title": "Mack & Rita",
+			"fullTitle": "Mack & Rita (2022)",
+			"year": "2022",
+			"releaseState": "12 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMGZlNDc4NmEtYzQxMS00ZTYyLTlkMTQtYWNiM2JkYWE5MGRhXkEyXkFqcGdeQXVyMTY2NTQ3ODc@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "94",
+			"runtimeStr": "94 mins",
+			"plot": "A 30-year-old writer (Elizabeth Lail) spends a wild weekend in Palm Springs and wakes up to find she has magically transformed into her 70-year-old self (Diane Keaton).",
+			"contentRating": "PG-13",
+			"imDbRating": "4.4",
+			"imDbRatingCount": "260",
+			"metacriticRating": "49",
+			"genres": "Comedy, Drama",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Drama", "value": "Drama" }
+			],
+			"directors": "Katie Aselton",
+			"directorList": [{ "id": "nm1051221", "name": "Katie Aselton" }],
+			"stars": "Diane Keaton, Elizabeth Lail, Taylour Paige, Loretta Devine",
+			"starList": [
+				{ "id": "nm0000473", "name": "Diane Keaton" },
+				{ "id": "nm5634768", "name": "Elizabeth Lail" },
+				{ "id": "nm3666749", "name": "Taylour Paige" },
+				{ "id": "nm0222643", "name": "Loretta Devine" }
+			]
+		},
+		{
+			"id": "tt11952606",
+			"title": "Easter Sunday",
+			"fullTitle": "Easter Sunday (2022)",
+			"year": "2022",
+			"releaseState": "05 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BN2I4MjI1YTUtMTY0MS00Mzg5LTg3ZGQtNjZkZTQ5MzlmM2RlXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "96",
+			"runtimeStr": "96 mins",
+			"plot": "Set around a family gathering to celebrate Easter Sunday, the comedy is based on Jo Koy's life experiences and stand-up comedy.",
+			"contentRating": "PG-13",
+			"imDbRating": "5.5",
+			"imDbRatingCount": "940",
+			"metacriticRating": "40",
+			"genres": "Comedy",
+			"genreList": [{ "key": "Comedy", "value": "Comedy" }],
+			"directors": "Jay Chandrasekhar",
+			"directorList": [{ "id": "nm0151540", "name": "Jay Chandrasekhar" }],
+			"stars": "Jo Koy, Lydia Gaston, Brandon Wardell, Eva Noblezada",
+			"starList": [
+				{ "id": "nm1839922", "name": "Jo Koy" },
+				{ "id": "nm1478223", "name": "Lydia Gaston" },
+				{ "id": "nm7385519", "name": "Brandon Wardell" },
+				{ "id": "nm8405300", "name": "Eva Noblezada" }
+			]
+		},
+		{
+			"id": "tt20850406",
+			"title": "Sita Ramam",
+			"fullTitle": "Sita Ramam (2022)",
+			"year": "2022",
+			"releaseState": "05 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BN2RjZDJhYzUtOTQ5Yy00OWM3LWE5OTctM2Y0YWVmNzAzODllXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "163",
+			"runtimeStr": "163 mins",
+			"plot": "An orphan soldier, Lieutenant Ram's life changes, after he gets a letter from a girl named Sita. He meets her and love blossoms between them. When he comes back to his camp in Kashmir, he sends a letter to Sita which won't reach her.",
+			"contentRating": "",
+			"imDbRating": "8",
+			"imDbRatingCount": "11046",
+			"metacriticRating": "",
+			"genres": "Action, Drama, Mystery",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Mystery", "value": "Mystery" }
+			],
+			"directors": "Hanu Raghavapudi",
+			"directorList": [{ "id": "nm2380725", "name": "Hanu Raghavapudi" }],
+			"stars": "Dulquer Salmaan, Mrunal Thakur, Rashmika Mandanna, Sumanth",
+			"starList": [
+				{ "id": "nm4921260", "name": "Dulquer Salmaan" },
+				{ "id": "nm7021807", "name": "Mrunal Thakur" },
+				{ "id": "nm8612305", "name": "Rashmika Mandanna" },
+				{ "id": "nm1368731", "name": "Sumanth" }
+			]
+		},
+		{
+			"id": "tt17527124",
+			"title": "Collide (II) (2022)",
+			"fullTitle": "Collide (II) (2022)",
+			"year": "II) ",
+			"releaseState": "05 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNDU2NjhmOGMtNmEzMy00YWY3LWJkNWQtNDFiOTQyYmY0MDEwXkEyXkFqcGdeQXVyNjUxMjc1OTM@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "90",
+			"runtimeStr": "90 mins",
+			"plot": "Follows a group of characters as their paths intersect over the course of an evening at an L.A. restaurant.",
+			"contentRating": "R",
+			"imDbRating": "3.9",
+			"imDbRatingCount": "241",
+			"metacriticRating": "",
+			"genres": "Thriller",
+			"genreList": [{ "key": "Thriller", "value": "Thriller" }],
+			"directors": "Mukunda Michael Dewil",
+			"directorList": [{ "id": "nm4320125", "name": "Mukunda Michael Dewil" }],
+			"stars": "Ryan Phillippe, Jim Gaffigan, Kat Graham, Drea de Matteo",
+			"starList": [
+				{ "id": "nm0000202", "name": "Ryan Phillippe" },
+				{ "id": "nm0300712", "name": "Jim Gaffigan" },
+				{ "id": "nm0334159", "name": "Kat Graham" },
+				{ "id": "nm0005576", "name": "Drea de Matteo" }
+			]
+		},
+		{
+			"id": "tt14042066",
+			"title": "Dobaaraa",
+			"fullTitle": "Dobaaraa (2022)",
+			"year": "2022",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMDljYWJhN2UtOWI2Mi00NjgzLWIwMWYtMWUxZWU5YWViMjY5XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "132",
+			"runtimeStr": "132 mins",
+			"plot": "A woman gets an opportunity to save the life of a 12-year old boy who witnessed a death during a thunderstorm which happened 25 years ago, by getting connected through the television set during a similar storm in the present.",
+			"contentRating": "",
+			"imDbRating": "2.9",
+			"imDbRatingCount": "13678",
+			"metacriticRating": "",
+			"genres": "Drama, Fantasy, Mystery",
+			"genreList": [
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Fantasy", "value": "Fantasy" },
+				{ "key": "Mystery", "value": "Mystery" }
+			],
+			"directors": "Anurag Kashyap",
+			"directorList": [{ "id": "nm0440604", "name": "Anurag Kashyap" }],
+			"stars": "Rahul Bhatt, Saswata Chatterjee, Shashwat Dwivedi, Pavail Gulati",
+			"starList": [
+				{ "id": "nm1178211", "name": "Rahul Bhatt" },
+				{ "id": "nm1384413", "name": "Saswata Chatterjee" },
+				{ "id": "nm9480908", "name": "Shashwat Dwivedi" },
+				{ "id": "nm3711178", "name": "Pavail Gulati" }
+			]
+		},
+		{
+			"id": "tt0083866",
+			"title": "E.T. the Extra-Terrestrial",
+			"fullTitle": "E.T. the Extra-Terrestrial (1982)",
+			"year": "1982",
+			"releaseState": "11 Jun 1982",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTQ2ODFlMDAtNzdhOC00ZDYzLWE3YTMtNDU4ZGFmZmJmYTczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "115",
+			"runtimeStr": "115 mins",
+			"plot": "A troubled child summons the courage to help a friendly alien escape from Earth and return to his home planet.",
+			"contentRating": "PG",
+			"imDbRating": "7.9",
+			"imDbRatingCount": "404279",
+			"metacriticRating": "91",
+			"genres": "Adventure, Family, Sci-Fi",
+			"genreList": [
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Family", "value": "Family" },
+				{ "key": "Sci-Fi", "value": "Sci-Fi" }
+			],
+			"directors": "Steven Spielberg",
+			"directorList": [{ "id": "nm0000229", "name": "Steven Spielberg" }],
+			"stars": "Henry Thomas, Drew Barrymore, Peter Coyote, Dee Wallace",
+			"starList": [
+				{ "id": "nm0001794", "name": "Henry Thomas" },
+				{ "id": "nm0000106", "name": "Drew Barrymore" },
+				{ "id": "nm0001075", "name": "Peter Coyote" },
+				{ "id": "nm0908914", "name": "Dee Wallace" }
+			]
+		},
+		{
+			"id": "tt11535228",
+			"title": "Emergency Declaration",
+			"fullTitle": "Emergency Declaration (2021)",
+			"year": "2021",
+			"releaseState": "22 Jan 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjYwNTZhNjktMGMzMi00YWUwLWJlZjgtZTg3ODRkNzZmZTk3XkEyXkFqcGdeQXVyODMyOTYyMTM@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "141",
+			"runtimeStr": "141 mins",
+			"plot": "After a terror incident occurs mid-flight, a passenger jet declares an emergency.",
+			"contentRating": "",
+			"imDbRating": "7.1",
+			"imDbRatingCount": "667",
+			"metacriticRating": "70",
+			"genres": "Action, Drama, Thriller",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "Han Jae-rim",
+			"directorList": [{ "id": "nm1954072", "name": "Han Jae-rim" }],
+			"stars": "Song Kang-ho, Lee Byung-hun, Jeon Do-yeon, Nam-gil Kim",
+			"starList": [
+				{ "id": "nm0814280", "name": "Song Kang-ho" },
+				{ "id": "nm0496932", "name": "Lee Byung-hun" },
+				{ "id": "nm0161133", "name": "Jeon Do-yeon" },
+				{ "id": "nm2339825", "name": "Nam-gil Kim" }
+			]
+		},
+		{
+			"id": "tt3794354",
+			"title": "Sonic the Hedgehog",
+			"fullTitle": "Sonic the Hedgehog (2020)",
+			"year": "2020",
+			"releaseState": "14 Feb 2020",
+			"image": "https://m.media-amazon.com/images/M/MV5BNTdmNmI4MzQtZTAzNS00MjhjLWEzOGQtZjI1NDNjZjk4N2JjXkEyXkFqcGdeQXVyMTM0NTUzNDIy._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "99",
+			"runtimeStr": "99 mins",
+			"plot": "After discovering a small, blue, fast hedgehog, a small-town police officer must help him defeat an evil genius who wants to do experiments on him.",
+			"contentRating": "PG",
+			"imDbRating": "6.5",
+			"imDbRatingCount": "136601",
+			"metacriticRating": "47",
+			"genres": "Action, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Jeff Fowler",
+			"directorList": [{ "id": "nm1733778", "name": "Jeff Fowler" }],
+			"stars": "Ben Schwartz, James Marsden, Jim Carrey, Tika Sumpter",
+			"starList": [
+				{ "id": "nm2355635", "name": "Ben Schwartz" },
+				{ "id": "nm0005188", "name": "James Marsden" },
+				{ "id": "nm0000120", "name": "Jim Carrey" },
+				{ "id": "nm1754366", "name": "Tika Sumpter" }
+			]
+		},
+		{
+			"id": "tt15339456",
+			"title": "Marcel the Shell with Shoes On",
+			"fullTitle": "Marcel the Shell with Shoes On (2021)",
+			"year": "2021",
+			"releaseState": "24 Jun 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BODgzZGEwZGQtZjA2Mi00OTI5LWIwZmYtZDQ4OTMxODE0YmU4XkEyXkFqcGdeQXVyOTQ5MDIyNDM@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "90",
+			"runtimeStr": "90 mins",
+			"plot": "Feature adaptation of the animated short film interviewing a mollusk named Marcel.",
+			"contentRating": "PG",
+			"imDbRating": "8.2",
+			"imDbRatingCount": "2968",
+			"metacriticRating": "81",
+			"genres": "Animation, Comedy, Family",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Family", "value": "Family" }
+			],
+			"directors": "Dean Fleischer-Camp",
+			"directorList": [{ "id": "nm3255797", "name": "Dean Fleischer-Camp" }],
+			"stars": "Jenny Slate, Dean Fleischer-Camp, Isabella Rossellini, Joe Gabler",
+			"starList": [
+				{ "id": "nm2809577", "name": "Jenny Slate" },
+				{ "id": "nm3255797", "name": "Dean Fleischer-Camp" },
+				{ "id": "nm0000618", "name": "Isabella Rossellini" },
+				{ "id": "nm4726706", "name": "Joe Gabler" }
+			]
+		},
+		{
+			"id": "tt11772746",
+			"title": "Thiruchitrambalam",
+			"fullTitle": "Thiruchitrambalam (2022)",
+			"year": "2022",
+			"releaseState": "18 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMjI4Y2I5ZDYtYWVjZC00MTkzLWI1ZmYtNDYyNDExYzYwYTQxXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "131",
+			"runtimeStr": "131 mins",
+			"plot": "Thiruchitrambalam lives with his father and his grandfather. He blames his father for the loss of his mother and sister and is not on good terms with his father. Meanwhile, his love life is not so successful.",
+			"contentRating": "",
+			"imDbRating": "8.3",
+			"imDbRatingCount": "2116",
+			"metacriticRating": "",
+			"genres": "Comedy, Drama, Musical",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Musical", "value": "Musical" }
+			],
+			"directors": "Mithran Jawahar",
+			"directorList": [{ "id": "nm4029254", "name": "Mithran Jawahar" }],
+			"stars": "Bharathiraja, Dhanush, Raashi Khanna, Nithya Menen",
+			"starList": [
+				{ "id": "nm0707300", "name": "Bharathiraja" },
+				{ "id": "nm1333687", "name": "Dhanush" },
+				{ "id": "nm5637317", "name": "Raashi Khanna" },
+				{ "id": "nm3383930", "name": "Nithya Menen" }
+			]
+		},
+		{
+			"id": "tt1663662",
+			"title": "Pacific Rim",
+			"fullTitle": "Pacific Rim (2013)",
+			"year": "2013",
+			"releaseState": "12 Jul 2013",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTY3MTI5NjQ4Nl5BMl5BanBnXkFtZTcwOTU1OTU0OQ@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "131",
+			"runtimeStr": "131 mins",
+			"plot": "As a war between humankind and monstrous sea creatures wages on, a former pilot and a trainee are paired up to drive a seemingly obsolete special weapon in a desperate effort to save the world from the apocalypse.",
+			"contentRating": "PG-13",
+			"imDbRating": "6.9",
+			"imDbRatingCount": "498255",
+			"metacriticRating": "65",
+			"genres": "Action, Adventure, Sci-Fi",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Sci-Fi", "value": "Sci-Fi" }
+			],
+			"directors": "Guillermo del Toro",
+			"directorList": [{ "id": "nm0868219", "name": "Guillermo del Toro" }],
+			"stars": "Idris Elba, Charlie Hunnam, Rinko Kikuchi, Charlie Day",
+			"starList": [
+				{ "id": "nm0252961", "name": "Idris Elba" },
+				{ "id": "nm0402271", "name": "Charlie Hunnam" },
+				{ "id": "nm0452860", "name": "Rinko Kikuchi" },
+				{ "id": "nm0206359", "name": "Charlie Day" }
+			]
+		},
+		{
+			"id": "tt2850386",
+			"title": "The Croods: A New Age",
+			"fullTitle": "The Croods: A New Age (2020)",
+			"year": "2020",
+			"releaseState": "25 Nov 2020",
+			"image": "https://m.media-amazon.com/images/M/MV5BNGU1NGNiYzYtMTQ2Ni00M2ZlLTg0N2QtMDFhMzNjNzcyMGYyXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "95",
+			"runtimeStr": "95 mins",
+			"plot": "The prehistoric family the Croods are challenged by a rival family the Bettermans, who claim to be better and more evolved.",
+			"contentRating": "PG",
+			"imDbRating": "6.9",
+			"imDbRatingCount": "42454",
+			"metacriticRating": "56",
+			"genres": "Animation, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Joel Crawford",
+			"directorList": [{ "id": "nm3150455", "name": "Joel Crawford" }],
+			"stars": "Nicolas Cage, Emma Stone, Ryan Reynolds, Catherine Keener",
+			"starList": [
+				{ "id": "nm0000115", "name": "Nicolas Cage" },
+				{ "id": "nm1297015", "name": "Emma Stone" },
+				{ "id": "nm0005351", "name": "Ryan Reynolds" },
+				{ "id": "nm0001416", "name": "Catherine Keener" }
+			]
+		},
+		{
+			"id": "tt16378164",
+			"title": "The Territory",
+			"fullTitle": "The Territory (2022)",
+			"year": "2022",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYzljMTQ3ZjEtODRkYi00OWM5LWIyZjItZTNkOWY3ZjIyMWQ2XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "83",
+			"runtimeStr": "83 mins",
+			"plot": "When a network of Brazilian farmers seizes a protected area of the Amazon rainforest, a young Indigenous leader and his mentor must fight back in defense of the land and an uncontacted group living deep within the forest.",
+			"contentRating": "PG",
+			"imDbRating": "7.7",
+			"imDbRatingCount": "179",
+			"metacriticRating": "84",
+			"genres": "Documentary",
+			"genreList": [{ "key": "Documentary", "value": "Documentary" }],
+			"directors": "Alex Pritz",
+			"directorList": [{ "id": "nm9729904", "name": "Alex Pritz" }],
+			"stars": "Neidinha Bandeira, Bitaté Uru Eu Wau Wau",
+			"starList": [
+				{ "id": "nm13355754", "name": "Neidinha Bandeira" },
+				{ "id": "nm11185774", "name": "Bitaté Uru Eu Wau Wau" }
+			]
+		},
+		{
+			"id": "tt12691830",
+			"title": "A Love Song",
+			"fullTitle": "A Love Song (2022)",
+			"year": "2022",
+			"releaseState": "20 Jan 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNjZhMzI3ZjMtNjM0OS00MzhiLTk2NzMtYjNlMzNjMDM4NmI4XkEyXkFqcGdeQXVyMTAyMjQ3NzQ1._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "81",
+			"runtimeStr": "81 mins",
+			"plot": "At a campground in the rural West, a woman waits alone for an old flame from her past to arrive, uncertain of his intentions while bashful about her own.",
+			"contentRating": "PG",
+			"imDbRating": "7.3",
+			"imDbRatingCount": "250",
+			"metacriticRating": "78",
+			"genres": "Romance",
+			"genreList": [{ "key": "Romance", "value": "Romance" }],
+			"directors": "Max Walker-Silverman",
+			"directorList": [{ "id": "nm8274294", "name": "Max Walker-Silverman" }],
+			"stars": "Dale Dickey, Wes Studi, Michelle Wilson, Benja K. Thomas",
+			"starList": [
+				{ "id": "nm0225460", "name": "Dale Dickey" },
+				{ "id": "nm0836071", "name": "Wes Studi" },
+				{ "id": "nm8979379", "name": "Michelle Wilson" },
+				{ "id": "nm1767858", "name": "Benja K. Thomas" }
+			]
+		},
+		{
+			"id": "tt0092086",
+			"title": "Three Amigos!",
+			"fullTitle": "Three Amigos! (1986)",
+			"year": "1986",
+			"releaseState": "12 Dec 1986",
+			"image": "https://m.media-amazon.com/images/M/MV5BNTE5NDQ1NTMyNl5BMl5BanBnXkFtZTcwNjY5MDQ3NA@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "104",
+			"runtimeStr": "104 mins",
+			"plot": "Three actors accept an invitation to a Mexican village to perform their onscreen bandit fighter roles, unaware that it is the real thing.",
+			"contentRating": "PG",
+			"imDbRating": "6.5",
+			"imDbRatingCount": "75362",
+			"metacriticRating": "52",
+			"genres": "Comedy, Western",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Western", "value": "Western" }
+			],
+			"directors": "John Landis",
+			"directorList": [{ "id": "nm0000484", "name": "John Landis" }],
+			"stars": "Steve Martin, Chevy Chase, Martin Short, Alfonso Arau",
+			"starList": [
+				{ "id": "nm0000188", "name": "Steve Martin" },
+				{ "id": "nm0000331", "name": "Chevy Chase" },
+				{ "id": "nm0001737", "name": "Martin Short" },
+				{ "id": "nm0000778", "name": "Alfonso Arau" }
+			]
+		},
+		{
+			"id": "tt11832046",
+			"title": "PAW Patrol: The Movie",
+			"fullTitle": "PAW Patrol: The Movie (2021)",
+			"year": "2021",
+			"releaseState": "20 Aug 2021",
+			"image": "https://m.media-amazon.com/images/M/MV5BNzY2OTYwNjItYzczMC00YjYzLThmY2MtZGFhNmVmMzUzN2QyXkEyXkFqcGdeQXVyNjY1MTg4Mzc@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "86",
+			"runtimeStr": "86 mins",
+			"plot": "Ryder and the pups are called to Adventure City to stop Mayor Humdinger from turning the bustling metropolis into a state of chaos.",
+			"contentRating": "G",
+			"imDbRating": "6.1",
+			"imDbRatingCount": "6086",
+			"metacriticRating": "50",
+			"genres": "Animation, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Cal Brunker",
+			"directorList": [{ "id": "nm2117510", "name": "Cal Brunker" }],
+			"stars": "Tyler Perry, Ron Pardo, Will Brisbin, Kingsley Marshall",
+			"starList": [
+				{ "id": "nm1347153", "name": "Tyler Perry" },
+				{ "id": "nm0661132", "name": "Ron Pardo" },
+				{ "id": "nm6033507", "name": "Will Brisbin" },
+				{ "id": "nm9391318", "name": "Kingsley Marshall" }
+			]
+		},
+		{
+			"id": "tt21279138",
+			"title": "Maid in Malacañang",
+			"fullTitle": "Maid in Malacañang (2022)",
+			"year": "2022",
+			"releaseState": "03 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BYTZhMjVmOGQtYzk1NC00MGRlLThkYTUtZTlkY2UyOGM2NDkyXkEyXkFqcGdeQXVyNTI5NjIyMw@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "114",
+			"runtimeStr": "114 mins",
+			"plot": "The Last Days of Ferdinand and Imelda Marcos tells the untold story of the last 72 hours of the Marcos dynasty.",
+			"contentRating": "",
+			"imDbRating": "3.8",
+			"imDbRatingCount": "15001",
+			"metacriticRating": "",
+			"genres": "Drama",
+			"genreList": [{ "key": "Drama", "value": "Drama" }],
+			"directors": "Darryl Yap",
+			"directorList": [{ "id": "nm9443913", "name": "Darryl Yap" }],
+			"stars": "Cesar Montano, Ruffa Gutierrez, Cristine Reyes, Diego Loyzaga",
+			"starList": [
+				{ "id": "nm0599004", "name": "Cesar Montano" },
+				{ "id": "nm1389654", "name": "Ruffa Gutierrez" },
+				{ "id": "nm1817740", "name": "Cristine Reyes" },
+				{ "id": "nm4408148", "name": "Diego Loyzaga" }
+			]
+		},
+		{
+			"id": "tt14188930",
+			"title": "Nna, Thaan Case Kodu",
+			"fullTitle": "Nna, Thaan Case Kodu (2022)",
+			"year": "2022",
+			"releaseState": "11 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTk0MGE4MTAtZTA2Ny00NjEzLWEyMDAtNmZhNzg5Y2VlOGRiXkEyXkFqcGdeQXVyMjkxNzQ1NDI@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "138",
+			"runtimeStr": "138 mins",
+			"plot": "A reformed thief's fight for justice when an innocent act to defend himself places him in loggerheads with the high and mighty of society.",
+			"contentRating": "",
+			"imDbRating": "8.6",
+			"imDbRatingCount": "1833",
+			"metacriticRating": "",
+			"genres": "Crime, Drama, Thriller",
+			"genreList": [
+				{ "key": "Crime", "value": "Crime" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "Ratheesh Balakrishnan Poduval",
+			"directorList": [{ "id": "nm10365311", "name": "Ratheesh Balakrishnan Poduval" }],
+			"stars": "Gayathrie, Kunchacko Boban, Basil Joseph, Rajesh Madhavan",
+			"starList": [
+				{ "id": "nm5408141", "name": "Gayathrie" },
+				{ "id": "nm0090283", "name": "Kunchacko Boban" },
+				{ "id": "nm7243877", "name": "Basil Joseph" },
+				{ "id": "nm9045614", "name": "Rajesh Madhavan" }
+			]
+		},
+		{
+			"id": "tt5113040",
+			"title": "The Secret Life of Pets 2",
+			"fullTitle": "The Secret Life of Pets 2 (2019)",
+			"year": "2019",
+			"releaseState": "07 Jun 2019",
+			"image": "https://m.media-amazon.com/images/M/MV5BMzdlMWQzZmItMDA5Ny00MGFjLTk0MDAtYjgzMmMyNTEwMzdhXkEyXkFqcGdeQXVyODQzNTE3ODc@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "86",
+			"runtimeStr": "86 mins",
+			"plot": "Continuing the story of Max and his pet friends, following their secret lives after their owners leave them for work or school each day.",
+			"contentRating": "PG",
+			"imDbRating": "6.4",
+			"imDbRatingCount": "61581",
+			"metacriticRating": "55",
+			"genres": "Animation, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Chris Renaud, Jonathan del Val",
+			"directorList": [
+				{ "id": "nm0719208", "name": "Chris Renaud" },
+				{ "id": "nm3646390", "name": "Jonathan del Val" }
+			],
+			"stars": "Patton Oswalt, Kevin Hart, Harrison Ford, Eric Stonestreet",
+			"starList": [
+				{ "id": "nm0652663", "name": "Patton Oswalt" },
+				{ "id": "nm0366389", "name": "Kevin Hart" },
+				{ "id": "nm0000148", "name": "Harrison Ford" },
+				{ "id": "nm0832314", "name": "Eric Stonestreet" }
+			]
+		},
+		{
+			"id": "tt21109538",
+			"title": "Hansan: Rising Dragon",
+			"fullTitle": "Hansan: Rising Dragon (2022)",
+			"year": "2022",
+			"releaseState": "27 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BMWYzM2MzOTctODQwYy00YTFmLWIyMDItMjQ5MDk4YzBlYmFiXkEyXkFqcGdeQXVyMTUzOTcyODA5._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "130",
+			"runtimeStr": "130 mins",
+			"plot": "Follow-up to 2014's The Admiral: Roaring Currents, which explores the historic Battle of Hansan Island.",
+			"contentRating": "",
+			"imDbRating": "7.1",
+			"imDbRatingCount": "195",
+			"metacriticRating": "",
+			"genres": "Action, Drama, History",
+			"genreList": [
+				{ "key": "Action", "value": "Action" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "History", "value": "History" }
+			],
+			"directors": "Han-min Kim",
+			"directorList": [{ "id": "nm3482943", "name": "Han-min Kim" }],
+			"stars": "Park Hae-il, Yo-Han Byun, Sung-Ki Ahn, Myoung Gong",
+			"starList": [
+				{ "id": "nm1310960", "name": "Park Hae-il" },
+				{ "id": "nm5374796", "name": "Yo-Han Byun" },
+				{ "id": "nm0014227", "name": "Sung-Ki Ahn" },
+				{ "id": "nm6811859", "name": "Myoung Gong" }
+			]
+		},
+		{
+			"id": "tt7600742",
+			"title": "Hallelujah: Leonard Cohen, a Journey, a Song",
+			"fullTitle": "Hallelujah: Leonard Cohen, a Journey, a Song (2021)",
+			"year": "2021",
+			"releaseState": "15 Jul 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOTEwNGNmYWItNzk4ZC00ODE5LTk1OTAtMTFkOTc0ZmM5NDJmXkEyXkFqcGdeQXVyMTQyODg5MjQw._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "118",
+			"runtimeStr": "118 mins",
+			"plot": "This feature-length documentary explores the life of singer-songwriter Leonard Cohen as seen through the prism of his internationally renowned hymn, Hallelujah.",
+			"contentRating": "PG-13",
+			"imDbRating": "7.4",
+			"imDbRatingCount": "186",
+			"metacriticRating": "69",
+			"genres": "Documentary, Biography, Music",
+			"genreList": [
+				{ "key": "Documentary", "value": "Documentary" },
+				{ "key": "Biography", "value": "Biography" },
+				{ "key": "Music", "value": "Music" }
+			],
+			"directors": "Daniel Geller, Dayna Goldfine",
+			"directorList": [
+				{ "id": "nm0002739", "name": "Daniel Geller" },
+				{ "id": "nm0325603", "name": "Dayna Goldfine" }
+			],
+			"stars": "Leonard Cohen, Nancy Bacal, Steve Berkowitz, Jeff Buckley",
+			"starList": [
+				{ "id": "nm0169552", "name": "Leonard Cohen" },
+				{ "id": "nm1584123", "name": "Nancy Bacal" },
+				{ "id": "nm0075489", "name": "Steve Berkowitz" },
+				{ "id": "nm0118623", "name": "Jeff Buckley" }
+			]
+		},
+		{
+			"id": "tt0111507",
+			"title": "Three Colors: White",
+			"fullTitle": "Three Colors: White (1994)",
+			"year": "1994",
+			"releaseState": "10 Jun 1994",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTc1ODkzOWItNmM4NS00OGQzLTg5NjctOThjY2M1MGI5ZTRkL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "92",
+			"runtimeStr": "92 mins",
+			"plot": "After his wife divorces him, a Polish immigrant plots to get even with her.",
+			"contentRating": "R",
+			"imDbRating": "7.6",
+			"imDbRatingCount": "73272",
+			"metacriticRating": "88",
+			"genres": "Comedy, Drama, Romance",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Romance", "value": "Romance" }
+			],
+			"directors": "Krzysztof Kieslowski",
+			"directorList": [{ "id": "nm0001425", "name": "Krzysztof Kieslowski" }],
+			"stars": "Zbigniew Zamachowski, Julie Delpy, Janusz Gajos, Jerzy Stuhr",
+			"starList": [
+				{ "id": "nm0952498", "name": "Zbigniew Zamachowski" },
+				{ "id": "nm0000365", "name": "Julie Delpy" },
+				{ "id": "nm0301515", "name": "Janusz Gajos" },
+				{ "id": "nm0836136", "name": "Jerzy Stuhr" }
+			]
+		},
+		{
+			"id": "tt11879338",
+			"title": "Tasleem Ahaly",
+			"fullTitle": "Tasleem Ahaly (2022)",
+			"year": "2022",
+			"releaseState": "03 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNGU1ODM0NDItYzgzNC00MzQ4LWFjNmYtYmI0NzA4MThhNjdiXkEyXkFqcGdeQXVyMTI1OTkzMzQ5._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "110",
+			"runtimeStr": "110 mins",
+			"plot": "The story follows a married couple, as the husband works as a doctor who dreams of immigrating to Canada, a woman soon appears in their lives and starts following them everywhere.",
+			"contentRating": "Not Rated",
+			"imDbRating": "7",
+			"imDbRatingCount": "143",
+			"metacriticRating": "",
+			"genres": "Comedy, Thriller",
+			"genreList": [
+				{ "key": "Comedy", "value": "Comedy" },
+				{ "key": "Thriller", "value": "Thriller" }
+			],
+			"directors": "Khaled El Halafawy",
+			"directorList": [{ "id": "nm4518735", "name": "Khaled El Halafawy" }],
+			"stars": "Donia Samir Ghanem, Hesham Maged, Dalal Abdulaziz, Ahmed Fathy",
+			"starList": [
+				{ "id": "nm1983128", "name": "Donia Samir Ghanem" },
+				{ "id": "nm4502931", "name": "Hesham Maged" },
+				{ "id": "nm1695459", "name": "Dalal Abdulaziz" },
+				{ "id": "nm2929018", "name": "Ahmed Fathy" }
+			]
+		},
+		{
+			"id": "tt1411704",
+			"title": "Hop",
+			"fullTitle": "Hop (2011)",
+			"year": "2011",
+			"releaseState": "01 Apr 2011",
+			"image": "https://m.media-amazon.com/images/M/MV5BMTY4MDcxNTkzNV5BMl5BanBnXkFtZTcwMTg2MDY2NA@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "95",
+			"runtimeStr": "95 mins",
+			"plot": "E.B., the Easter Bunny's teenage son, heads to Hollywood, determined to become a drummer in a rock 'n' roll band. In LA, he's taken in by Fred after the out-of-work slacker hits E.B. with his car.",
+			"contentRating": "PG",
+			"imDbRating": "5.4",
+			"imDbRatingCount": "34494",
+			"metacriticRating": "41",
+			"genres": "Animation, Adventure, Comedy",
+			"genreList": [
+				{ "key": "Animation", "value": "Animation" },
+				{ "key": "Adventure", "value": "Adventure" },
+				{ "key": "Comedy", "value": "Comedy" }
+			],
+			"directors": "Tim Hill",
+			"directorList": [{ "id": "nm0384722", "name": "Tim Hill" }],
+			"stars": "Russell Brand, James Marsden, Elizabeth Perkins, Kaley Cuoco",
+			"starList": [
+				{ "id": "nm1258970", "name": "Russell Brand" },
+				{ "id": "nm0005188", "name": "James Marsden" },
+				{ "id": "nm0001610", "name": "Elizabeth Perkins" },
+				{ "id": "nm0192505", "name": "Kaley Cuoco" }
+			]
+		},
+		{
+			"id": "tt6735740",
+			"title": "Love in Kilnerry",
+			"fullTitle": "Love in Kilnerry (2019)",
+			"year": "2019",
+			"releaseState": "23 Jun 2019",
+			"image": "https://m.media-amazon.com/images/M/MV5BYjIyNmJjMzMtOTBhNC00NzA4LTkwOWEtNzdlMzAwZGIwM2M4XkEyXkFqcGdeQXVyMzQwNTU0OTQ@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "100",
+			"runtimeStr": "100 mins",
+			"plot": "The elderly residents of a small remote town panic after the Environmental Protection Agency announces that the government mandated changes to their water supply needed for their chemical ... See full summary",
+			"contentRating": "",
+			"imDbRating": "9",
+			"imDbRatingCount": "4380",
+			"metacriticRating": "",
+			"genres": "Comedy",
+			"genreList": [{ "key": "Comedy", "value": "Comedy" }],
+			"directors": "Daniel Keith",
+			"directorList": [{ "id": "nm5061479", "name": "Daniel Keith" }],
+			"stars": "Daniel Keith, Kathy Searle, Tony Triano, James Patrick Nelson",
+			"starList": [
+				{ "id": "nm5061479", "name": "Daniel Keith" },
+				{ "id": "nm1617220", "name": "Kathy Searle" },
+				{ "id": "nm7780705", "name": "Tony Triano" },
+				{ "id": "nm5662482", "name": "James Patrick Nelson" }
+			]
+		},
+		{
+			"id": "tt14174586",
+			"title": "Miracle Valley",
+			"fullTitle": "Miracle Valley (2021)",
+			"year": "2021",
+			"releaseState": "2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BZmQ5ZDhkZGYtYzNiOS00NDc2LWI3YjgtYzYwY2JkMjZhNzMwXkEyXkFqcGdeQXVyMTA0NzQyNTQy._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "90",
+			"runtimeStr": "90 mins",
+			"plot": "An obsessive photographer and his girlfriend are invited to a desert getaway in search of an ultra-rare bird. Fortune, fame and mending their fading relationship takes a turn at the hands ... See full summary",
+			"contentRating": "",
+			"imDbRating": "6.5",
+			"imDbRatingCount": "95",
+			"metacriticRating": "",
+			"genres": "Drama, Horror, Mystery",
+			"genreList": [
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Horror", "value": "Horror" },
+				{ "key": "Mystery", "value": "Mystery" }
+			],
+			"directors": "Greg Sestero",
+			"directorList": [{ "id": "nm0802995", "name": "Greg Sestero" }],
+			"stars": "Greg Sestero, Angela Mariano, Rick Edwards, Louisa Torres",
+			"starList": [
+				{ "id": "nm0802995", "name": "Greg Sestero" },
+				{ "id": "nm12362350", "name": "Angela Mariano" },
+				{ "id": "nm0250307", "name": "Rick Edwards" },
+				{ "id": "nm6365311", "name": "Louisa Torres" }
+			]
+		},
+		{
+			"id": "tt15554794",
+			"title": "Bai Ji Kuttange",
+			"fullTitle": "Bai Ji Kuttange (2022)",
+			"year": "2022",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNmI2MmQ3NTctMjg1Yy00ZWNjLTkzMTYtODVjZjQwOWI5MGJkXkEyXkFqcGdeQXVyMTM0NDg1ODc4._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "137",
+			"runtimeStr": "137 mins",
+			"plot": "Bai Ji, a highly feared businessman, gets tricked by Boota Singh, a street smart, into unknowingly hiring him and his entire family. What follows suit is a comedy of errors as Boota Singh and family try to hide their true identities from.",
+			"contentRating": "",
+			"imDbRating": "8",
+			"imDbRatingCount": "175",
+			"metacriticRating": "",
+			"genres": "Action",
+			"genreList": [{ "key": "Action", "value": "Action" }],
+			"directors": "Smeep Kang",
+			"directorList": [{ "id": "nm2321771", "name": "Smeep Kang" }],
+			"stars": "Dev Kharoud, Gurpreet Ghuggi, Upasna Singh, Harnaaz Sandhu",
+			"starList": [
+				{ "id": "nm4349094", "name": "Dev Kharoud" },
+				{ "id": "nm1836657", "name": "Gurpreet Ghuggi" },
+				{ "id": "nm0802251", "name": "Upasna Singh" },
+				{ "id": "nm11082552", "name": "Harnaaz Sandhu" }
+			]
+		},
+		{
+			"id": "tt21420596",
+			"title": "Laung Laachi 2",
+			"fullTitle": "Laung Laachi 2 (2022)",
+			"year": "2022",
+			"releaseState": "19 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BOWMwNWM0NjEtNmYyYi00MjcyLThhNDMtMDI5MWIzYzgyYmRlXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "138",
+			"runtimeStr": "138 mins",
+			"plot": "Set in 1947, this is a story of a set of people who have to vacate their house to move into another place. Chaos ensues as the original inhabitants face another family that enters the house.",
+			"contentRating": "",
+			"imDbRating": "5.2",
+			"imDbRatingCount": "46",
+			"metacriticRating": "",
+			"genres": "Drama, Romance",
+			"genreList": [
+				{ "key": "Drama", "value": "Drama" },
+				{ "key": "Romance", "value": "Romance" }
+			],
+			"directors": "Amberdeep Singh",
+			"directorList": [{ "id": "nm4179342", "name": "Amberdeep Singh" }],
+			"stars": "Amberdeep Singh, Neeru Bajwa, Ammy Virk, Sukhwinder Raj",
+			"starList": [
+				{ "id": "nm4179342", "name": "Amberdeep Singh" },
+				{ "id": "nm1263093", "name": "Neeru Bajwa" },
+				{ "id": "nm7447035", "name": "Ammy Virk" },
+				{ "id": "nm5258932", "name": "Sukhwinder Raj" }
+			]
+		},
+		{
+			"id": "tt10643700",
+			"title": "Free Puppies!",
+			"fullTitle": "Free Puppies! (2022)",
+			"year": "2022",
+			"releaseState": "12 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BM2NmYmFkMzEtMzg3Yi00MmFjLWI5MTYtNDM3OTA1OTE4OWZjXkEyXkFqcGdeQXVyMjQwMDU3MzM@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "68",
+			"runtimeStr": "68 mins",
+			"plot": "Tens of thousands of dogs are transported every year from areas with high euthanasia rates to parts of the country with fewer unwanted dogs and a surplus of adopters. Knowing the happy ... See full summary",
+			"contentRating": "",
+			"imDbRating": "0",
+			"imDbRatingCount": "0",
+			"metacriticRating": "",
+			"genres": "Documentary",
+			"genreList": [{ "key": "Documentary", "value": "Documentary" }],
+			"directors": "Christina Thomas, Samantha Wishman",
+			"directorList": [
+				{ "id": "nm3541269", "name": "Christina Thomas" },
+				{ "id": "nm10839098", "name": "Samantha Wishman" }
+			],
+			"stars": "Ann Brown, Ruth Smith, Monda Wooten",
+			"starList": [
+				{ "id": "nm13824472", "name": "Ann Brown" },
+				{ "id": "nm13824471", "name": "Ruth Smith" },
+				{ "id": "nm13824470", "name": "Monda Wooten" }
+			]
+		},
+		{
+			"id": "tt14617914",
+			"title": "Tierra Santa. El último peregrino",
+			"fullTitle": "Tierra Santa. El último peregrino (2021)",
+			"year": "2021",
+			"releaseState": "18 Aug 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BNmQ1ZmZiYWMtYzExYi00YTNhLWE1YTktZDQ0YTMzZTk2OTc5XkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "86",
+			"runtimeStr": "86 mins",
+			"plot": "Carmen sees her marriage stagnant: her husband does not take her into account and her children do not understand her. When she suggests going on a family trip to the Holy Land, the storm breaks out and mixed feelings surface.",
+			"contentRating": "",
+			"imDbRating": "0",
+			"imDbRatingCount": "0",
+			"metacriticRating": "",
+			"genres": "Drama",
+			"genreList": [{ "key": "Drama", "value": "Drama" }],
+			"directors": "Andrés Garrigó, Pablo Moreno",
+			"directorList": [
+				{ "id": "nm6506138", "name": "Andrés Garrigó" },
+				{ "id": "nm4210251", "name": "Pablo Moreno" }
+			],
+			"stars": "Carlos Cañas, Wendy Gara, Rafa Jiménez, Álex Larumbe",
+			"starList": [
+				{ "id": "nm2080280", "name": "Carlos Cañas" },
+				{ "id": "nm9398130", "name": "Wendy Gara" },
+				{ "id": "nm9046211", "name": "Rafa Jiménez" },
+				{ "id": "nm5351452", "name": "Álex Larumbe" }
+			]
+		},
+		{
+			"id": "tt14845570",
+			"title": "Anonymous Club",
+			"fullTitle": "Anonymous Club (2021)",
+			"year": "2021",
+			"releaseState": "18 Mar 2022",
+			"image": "https://m.media-amazon.com/images/M/MV5BZWY1Y2NlZGUtYzdlMy00NmRlLWE1MTMtYmYyOGIxZDA5ZWEzXkEyXkFqcGdeQXVyMTU3MzIyNDk@._V1_UX128_CR0,12,128,176_AL_.jpg",
+			"runtimeMins": "83",
+			"runtimeStr": "83 mins",
+			"plot": "An intimate access to the private life of Courtney Barnett, an anti-influencer who is a powerful voice for our times.",
+			"contentRating": "",
+			"imDbRating": "7.3",
+			"imDbRatingCount": "46",
+			"metacriticRating": "70",
+			"genres": "Documentary",
+			"genreList": [{ "key": "Documentary", "value": "Documentary" }],
+			"directors": "Danny Cohen",
+			"directorList": [{ "id": "nm9017608", "name": "Danny Cohen" }],
+			"stars": "Courtney Barnett",
+			"starList": [{ "id": "nm4501895", "name": "Courtney Barnett" }]
+		}
+	],
+	"errorMessage": ""
+}
