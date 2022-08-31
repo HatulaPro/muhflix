@@ -88,3 +88,11 @@ iframe {
 	border: none;
 	border-radius: 20px;
 }
+
+a {
+	color: lightskyblue;
+}
+
+a:hover {
+	color: cornflowerblue;
+}

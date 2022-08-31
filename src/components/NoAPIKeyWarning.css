@@ -1,0 +1,22 @@
+.noAPIkeyWarning {
+	background-color: #850000;
+	padding: 1rem;
+	margin: auto;
+	margin-top: 60px;
+	border-radius: 12px;
+	width: 80vw;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	transition: 0.2s all;
+}
+.noAPIkeyWarning_hide {
+	height: 0;
+	overflow-y: hidden;
+	transform: scaleY(0.1);
+	opacity: 0;
+	margin-top: 0;
+}
+.noAPIkeyWarning p {
+	flex: 2;
+}
