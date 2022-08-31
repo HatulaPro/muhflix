@@ -2,6 +2,7 @@ import { useContext, useState } from 'react';
 import { APIContext } from '../APIContext';
 import { getMovieDetails } from '../axios';
 import MovieDetails from './MovieDetails';
+import ImageLoader from './ImageLoader';
 import './MovieViewer.css';
 
 const MovieViewer = ({ movie, index, currentShowingIndex, setShowingIndex, ...rest }) => {
@@ -24,7 +25,7 @@ const MovieViewer = ({ movie, index, currentShowingIndex, setShowingIndex, ...re
 
 	return (
 		<div className="movieViewer" onClick={loadDetails} {...rest}>
-			<img loading="lazy" src={movie.image} alt={movie.fullTitle} />
+			<ImageLoader src={movie.image} alt={movie.fullTitle} loading="lazy" />
 			{movie.rank && <span className="movieViewer_rank">#{movie.rank}</span>}
 			<MovieDetails show={index === currentShowingIndex} update={update} movieDetails={movieDetails} />
 		</div>
