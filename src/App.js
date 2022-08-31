@@ -18,7 +18,7 @@ function App() {
 		<div className="app">
 			<ThemeProvider theme={darkTheme}>
 				<CssBaseline />
-				<Router>
+				<Router basename="/muhflix/">
 					<Header />
 					<Routes>
 						<Route exact path="/" element={<Main />} />
