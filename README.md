@@ -7,4 +7,4 @@
 
 ## Improtant Note: 
 
-For budget reasons, I can only use the API so many times a day, so all the values are cached. 
+For budget reasons, I can only use the API so many times a day, so by default, all the values are cached. Users can always use their own API key (by changing the setttings).
