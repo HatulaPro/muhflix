@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { fetchTop250 } from '../axios';
 import LoadingScreen from './LoadingScreen';
 import MovieListViewer from './MovieListViewer';
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
-
 import './Search.css';
+import { APIContext } from '../APIContext';
 
 const movieToFilterString = (movie) => {
 	return movie.title + movie.fullTitle + movie.crew + movie.year;
@@ -18,8 +18,8 @@ const Search = () => {
 	const [top250Movies, setTop250Movies] = useState([]);
 	const [topMoviesOptions, setTopMoviesOptions] = useState([]);
 	const [query, setQuery] = useState('');
+	const [apiKey] = useContext(APIContext);
 
-	console.log({ query });
 	function updateQuery(e, value) {
 		if (value === undefined) return;
 		value = value || '';
@@ -31,7 +31,7 @@ const Search = () => {
 	}
 
 	useEffect(() => {
-		const results = fetchTop250();
+		const results = fetchTop250(apiKey);
 		results.then((top250) => {
 			setTop250Movies(
 				top250.data.items.map((x) => {
@@ -43,7 +43,7 @@ const Search = () => {
 			);
 			setTopMoviesOptions(top250.data.items);
 		});
-	}, []);
+	}, [apiKey]);
 
 	return top250Movies ? (
 		<div className="search">

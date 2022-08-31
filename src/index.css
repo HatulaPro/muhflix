@@ -22,11 +22,15 @@ code {
 	font-weight: bold;
 	transition: 0.2s all;
 }
-.btn:active {
+.btn:disabled {
+	background-color: #ccc;
+	color: #333;
+}
+.btn:not(:disabled):active {
 	border: 2px solid darkviolet;
 }
 
-.btn:hover {
+.btn:not(:disabled):hover {
 	cursor: pointer;
 	background-color: rgb(205, 205, 205);
 }

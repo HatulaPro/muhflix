@@ -1,0 +1,19 @@
+.settings {
+	padding: 70px;
+	text-align: center;
+}
+
+.settings_form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	max-width: 400px;
+	margin: 2rem auto;
+}
+
+.setting_verification {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}

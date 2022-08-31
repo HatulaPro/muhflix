@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
+import { APIContext } from '../APIContext';
 import { getMovieDetails } from '../axios';
 import MovieDetails from './MovieDetails';
 import './MovieViewer.css';
 
 const MovieViewer = ({ movie, index, currentShowingIndex, setShowingIndex, ...rest }) => {
+	const [apiKey] = useContext(APIContext);
 	const [movieDetails, setMovieDetails] = useState(null);
 	function update() {
 		if (index === currentShowingIndex) {
@@ -16,7 +18,7 @@ const MovieViewer = ({ movie, index, currentShowingIndex, setShowingIndex, ...re
 	async function loadDetails() {
 		if (movieDetails) return update();
 		update();
-		const res = await getMovieDetails(movie.id);
+		const res = await getMovieDetails(apiKey, movie.id);
 		setMovieDetails(res.data);
 	}
 

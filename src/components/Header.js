@@ -13,6 +13,9 @@ const Header = () => {
 			<Link to="/search" className={`header_link ${location.pathname === '/search' && 'header_linkSelected'}`}>
 				Search
 			</Link>
+			<Link to="/settings" className={`header_link ${location.pathname === '/settings' && 'header_linkSelected'}`}>
+				Settings
+			</Link>
 		</div>
 	);
 };

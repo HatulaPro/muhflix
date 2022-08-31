@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { getMovieDetails } from '../axios';
 import IMDBRating from './IMDBRating';
 import './TopMovie.css';
@@ -6,16 +6,18 @@ import TrailerView from './TrailerView';
 import { useMediaQuery } from 'react-responsive';
 import Carousel from './Carousel';
 import MovieDetails from './MovieDetails';
+import { APIContext } from '../APIContext';
 
 const TopMovie = ({ movie }) => {
 	const [movieDetails, setMovieDetails] = useState(null);
 	const [showTrailer, setShowTrailer] = useState(false);
 	const [showInfo, setShowInfo] = useState(false);
 	const isSmallScreen = useMediaQuery({ maxWidth: 992 });
+	const [apiKey] = useContext(APIContext);
 
 	useEffect(() => {
 		async function getData() {
-			const res = await getMovieDetails(movie.id);
+			const res = await getMovieDetails(apiKey, movie.id);
 			if (res) {
 				setMovieDetails(res.data);
 			}
@@ -23,7 +25,7 @@ const TopMovie = ({ movie }) => {
 		if (movie) {
 			getData();
 		}
-	}, [movie]);
+	}, [movie, apiKey]);
 
 	function handleTrailerOpen() {
 		setShowTrailer(!showTrailer);

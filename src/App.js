@@ -6,6 +6,8 @@ import Search from './components/Search';
 import LoadingScreen from './components/LoadingScreen';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import { APIContextProvider } from './APIContext';
+import Settings from './components/Settings';
 
 const darkTheme = createTheme({
 	palette: {
@@ -16,17 +18,20 @@ const darkTheme = createTheme({
 function App() {
 	return (
 		<div className="app">
-			<ThemeProvider theme={darkTheme}>
-				<CssBaseline />
-				<Router basename="/muhflix/">
-					<Header />
-					<Routes>
-						<Route exact path="/" element={<Main />} />
-						<Route exact path="/search" element={<Search />} />
-						<Route exact path="/load_debug" element={<LoadingScreen />} />
-					</Routes>
-				</Router>
-			</ThemeProvider>
+			<APIContextProvider>
+				<ThemeProvider theme={darkTheme}>
+					<CssBaseline />
+					<Router basename="/muhflix/">
+						<Header />
+						<Routes>
+							<Route exact path="/" element={<Main />} />
+							<Route exact path="/search" element={<Search />} />
+							<Route exact path="/settings" element={<Settings />} />
+							<Route exact path="/load_debug" element={<LoadingScreen />} />
+						</Routes>
+					</Router>
+				</ThemeProvider>
+			</APIContextProvider>
 		</div>
 	);
 }
