@@ -7,6 +7,7 @@ import TextField from '@mui/material/TextField';
 import './Search.css';
 import { APIContext } from '../APIContext';
 import { LinearProgress } from '@mui/material';
+import { CSSTransition } from 'react-transition-group';
 
 const movieToFilterString = (movie) => {
 	return movie.title + movie.fullTitle + movie.crew + movie.year;
@@ -52,13 +53,15 @@ const Search = () => {
 	return top250Movies ? (
 		<div className="search">
 			<h1>Search Movies</h1>
-			{pending && <LinearProgress />}
+			<CSSTransition in={pending} timeout={400} classNames="search_progress">
+				<LinearProgress className="search_progress" />
+			</CSSTransition>
 			<Autocomplete freeSolo autoComplete inputValue={query} onChange={updateQuery} onInputChange={updateQuery} filterOptions={filterOptions} getOptionLabel={(movie) => movie.fullTitle || (topMoviesOptions.length && topMoviesOptions[0].fullTitle) || movie} options={topMoviesOptions} renderInput={(params) => <TextField {...params} label="Movie" />} />
 			<br />
 			<br />
 			<div style={{ marginTop: '80px' }}>
 				<MovieListViewer
-					list={topMoviesOptions}
+					list={topMoviesOptions.slice(0, 20)}
 					title={
 						Boolean(query) && (
 							<>

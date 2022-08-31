@@ -2,3 +2,16 @@
 	padding: 70px;
 	text-align: center;
 }
+
+.search_progress {
+	transition: 0.2s all;
+	visibility: hidden;
+	opacity: 0;
+	margin: 8px;
+}
+
+.search_progress-exit-active {
+	transition: 0.2s all;
+	visibility: visible;
+	opacity: 1;
+}
