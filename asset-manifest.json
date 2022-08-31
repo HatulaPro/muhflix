@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/muhflix/static/css/main.5a89e78c.css",
-    "main.js": "/muhflix/static/js/main.ea373ae3.js",
+    "main.css": "/muhflix/static/css/main.9f3b3c6c.css",
+    "main.js": "/muhflix/static/js/main.855665d8.js",
     "index.html": "/muhflix/index.html",
-    "main.5a89e78c.css.map": "/muhflix/static/css/main.5a89e78c.css.map",
-    "main.ea373ae3.js.map": "/muhflix/static/js/main.ea373ae3.js.map"
+    "main.9f3b3c6c.css.map": "/muhflix/static/css/main.9f3b3c6c.css.map",
+    "main.855665d8.js.map": "/muhflix/static/js/main.855665d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a89e78c.css",
-    "static/js/main.ea373ae3.js"
+    "static/css/main.9f3b3c6c.css",
+    "static/js/main.855665d8.js"
   ]
 }
