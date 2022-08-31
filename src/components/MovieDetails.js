@@ -109,7 +109,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 						<div className="movieDetails_wiki">
 							<a href={movieDetails?.wikipedia.url}>
 								<div>
-									<img src="/images/wiki.svg" alt={"Wikipedia's Logo"} />
+									<img src="images/wiki.svg" alt={"Wikipedia's Logo"} />
 									<h3>Wikipedia Plot Summary:</h3>
 								</div>
 							</a>
