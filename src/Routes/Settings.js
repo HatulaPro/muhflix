@@ -22,6 +22,7 @@ const Settings = () => {
 	const [inputApiKey, setInputApiKey] = useState(apiKeyValue);
 	const [apiEnabled, setApiEnabled] = useState(apiKeyEnabled);
 	const [checkingStatus, setCheckingStatus] = useState(CHECKING_STATUSES.default);
+	const [requestsLeft, setRequestsLeft] = useState(-1);
 
 	function updateEnabled() {
 		setApiEnabled((prev) => !prev);
@@ -39,14 +40,20 @@ const Settings = () => {
 		e.preventDefault();
 		setCheckingStatus(CHECKING_STATUSES.ongoing);
 		validateAPIKey(inputApiKey).then((result) => {
-			if (result) {
+			if (!result.error) {
 				setApiKey({ value: inputApiKey, enabled: apiEnabled });
 				// All Good
 				setCheckingStatus(CHECKING_STATUSES.success);
+				setRequestsLeft(result.left);
 			} else {
 				setApiKey(API_KEY_FILLER);
 				// Bad API key
 				setCheckingStatus(CHECKING_STATUSES.fail);
+				if (result.hasAccount) {
+					setRequestsLeft(0);
+				} else {
+					setRequestsLeft(-1);
+				}
 			}
 		});
 	}
@@ -61,6 +68,7 @@ const Settings = () => {
 				<button type="submit" disabled={checkingStatus === CHECKING_STATUSES.ongoing} className="btn" style={{ width: 'min-content', margin: 'auto' }}>
 					SAVE
 				</button>
+
 				{checkingStatus === CHECKING_STATUSES.ongoing && (
 					<div className="setting_verification">
 						<span>Verifying API Key...</span>
@@ -71,6 +79,12 @@ const Settings = () => {
 					<div className="setting_verification">
 						<span>API Key Is Valid!</span>
 						<DoneIcon htmlColor="lightgreen" />
+						<div className="flexLineBreak"></div>
+						{requestsLeft !== -1 && (
+							<span>
+								<small>You have {requestsLeft} requests left.</small>
+							</span>
+						)}
 					</div>
 				)}
 			</form>

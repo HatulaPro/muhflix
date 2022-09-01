@@ -50,5 +50,6 @@ export async function getMovieDetails({ value, enabled }, movieId) {
 
 export async function validateAPIKey(key) {
 	const response = await API_INSTANCE.get(`https://imdb-api.com/API/Usage/${key}`);
-	return !Boolean(response.data.errorMessage);
+	const data = response.data;
+	return { error: Boolean(data.errorMessage), left: data.maximum - data.count, hasAccount: Boolean(data.account) };
 }
