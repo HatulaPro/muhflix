@@ -6,7 +6,7 @@ import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { APIContext, API_KEY_FILLER } from '../APIContext';
 import { CircularProgress } from '@mui/material';
-// import DoneIcon from '@mui/icons-material/Done';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import DoneIcon from '@mui/icons-material/Done';
 import { validateAPIKey } from '../axios';
 
@@ -69,24 +69,30 @@ const Settings = () => {
 					SAVE
 				</button>
 
-				{checkingStatus === CHECKING_STATUSES.ongoing && (
-					<div className="setting_verification">
-						<span>Verifying API Key...</span>
-						<CircularProgress color="warning" />
-					</div>
-				)}
-				{checkingStatus === CHECKING_STATUSES.success && (
-					<div className="setting_verification">
-						<span>API Key Is Valid!</span>
-						<DoneIcon htmlColor="lightgreen" />
-						<div className="flexLineBreak"></div>
-						{requestsLeft !== -1 && (
-							<span>
-								<small>You have {requestsLeft} requests left.</small>
-							</span>
-						)}
-					</div>
-				)}
+				<TransitionGroup component={null}>
+					<CSSTransition key={checkingStatus + requestsLeft} classNames="fade" timeout={500}>
+						<div>
+							{checkingStatus === CHECKING_STATUSES.ongoing && (
+								<div className="setting_verification">
+									<span>Verifying API Key...</span>
+									<CircularProgress color="warning" />
+								</div>
+							)}
+							{checkingStatus === CHECKING_STATUSES.success && (
+								<div className="setting_verification">
+									<span>API Key Is Valid!</span>
+									<DoneIcon htmlColor="lightgreen" />
+									<div className="flexLineBreak"></div>
+									{requestsLeft !== -1 && (
+										<span>
+											<small>You have {requestsLeft} requests left.</small>
+										</span>
+									)}
+								</div>
+							)}
+						</div>
+					</CSSTransition>
+				</TransitionGroup>
 			</form>
 		</div>
 	);
