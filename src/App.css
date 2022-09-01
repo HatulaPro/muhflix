@@ -1,0 +1,9 @@
+.fade-enter {
+	opacity: 0;
+	z-index: 10;
+}
+
+.fade-enter.fade-enter-active {
+	transition: 300ms all;
+	opacity: 1;
+}
