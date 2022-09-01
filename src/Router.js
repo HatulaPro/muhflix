@@ -1,7 +1,7 @@
-import Main from './components/Main';
-import Search from './components/Search';
-import LoadingScreen from './components/LoadingScreen';
-import Settings from './components/Settings';
+import Main from './Routes/Main';
+import Search from './Routes/Search';
+import LoadingScreen from './Routes/LoadingScreen';
+import Settings from './Routes/Settings';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './App.css';
 import { Route, Routes, useLocation } from 'react-router-dom';

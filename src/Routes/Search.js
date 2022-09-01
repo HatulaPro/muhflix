@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState, useTransition } from 'react';
 import { fetchTop250 } from '../axios';
 import LoadingScreen from './LoadingScreen';
-import MovieListViewer from './MovieListViewer';
+import MovieListViewer from '../components/MovieListViewer';
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 import './Search.css';

@@ -1,10 +1,10 @@
 import { useContext, useEffect, useState } from 'react';
 import { APIContext } from '../APIContext';
-import { fetchMostPopular, fetchInTheaters } from './../axios';
+import { fetchMostPopular, fetchInTheaters } from '../axios';
 import LoadingScreen from './LoadingScreen';
-import MovieListViewer from './MovieListViewer';
-import NoAPIKeyWarning from './NoAPIKeyWarning';
-import TopMovie from './TopMovie';
+import MovieListViewer from '../components/MovieListViewer';
+import NoAPIKeyWarning from '../components/NoAPIKeyWarning';
+import TopMovie from '../components/TopMovie';
 
 const Main = () => {
 	const [mostPopularMovies, setMostPopularMovies] = useState(null);
