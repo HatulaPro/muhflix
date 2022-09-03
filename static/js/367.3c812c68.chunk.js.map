@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/367.3c812c68.chunk.js","mappings":"iKAMA,EAJc,WACb,OAAO,uBACP,C","sources":["themes/Light.js"],"sourcesContent":["import './light.css';\r\n\r\nconst Light = () => {\r\n\treturn <></>;\r\n};\r\n\r\nexport default Light;\r\n"],"names":[],"sourceRoot":""}

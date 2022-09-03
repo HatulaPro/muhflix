@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/muhflix/static/css/main.bcc84119.css",
-    "main.js": "/muhflix/static/js/main.d8368fca.js",
+    "main.css": "/muhflix/static/css/main.346227a5.css",
+    "main.js": "/muhflix/static/js/main.aac5c319.js",
+    "static/css/269.bfd8d573.chunk.css": "/muhflix/static/css/269.bfd8d573.chunk.css",
+    "static/js/269.44644f04.chunk.js": "/muhflix/static/js/269.44644f04.chunk.js",
+    "static/css/367.ba5b2e0a.chunk.css": "/muhflix/static/css/367.ba5b2e0a.chunk.css",
+    "static/js/367.3c812c68.chunk.js": "/muhflix/static/js/367.3c812c68.chunk.js",
     "index.html": "/muhflix/index.html",
-    "main.bcc84119.css.map": "/muhflix/static/css/main.bcc84119.css.map",
-    "main.d8368fca.js.map": "/muhflix/static/js/main.d8368fca.js.map"
+    "main.346227a5.css.map": "/muhflix/static/css/main.346227a5.css.map",
+    "main.aac5c319.js.map": "/muhflix/static/js/main.aac5c319.js.map",
+    "269.bfd8d573.chunk.css.map": "/muhflix/static/css/269.bfd8d573.chunk.css.map",
+    "269.44644f04.chunk.js.map": "/muhflix/static/js/269.44644f04.chunk.js.map",
+    "367.ba5b2e0a.chunk.css.map": "/muhflix/static/css/367.ba5b2e0a.chunk.css.map",
+    "367.3c812c68.chunk.js.map": "/muhflix/static/js/367.3c812c68.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcc84119.css",
-    "static/js/main.d8368fca.js"
+    "static/css/main.346227a5.css",
+    "static/js/main.aac5c319.js"
   ]
 }
