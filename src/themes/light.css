@@ -1,4 +1,5 @@
 :root {
+	--theme-name: 'LIGHT_THEME_NAME';
 	--theme-main: hsl(300, 76%, 60%);
 	--theme-secondary: #f5c518;
 

@@ -9,6 +9,7 @@ import { CircularProgress } from '@mui/material';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import DoneIcon from '@mui/icons-material/Done';
 import { validateAPIKey } from '../axios';
+import { ThemeContext } from '../ThemeHandler';
 
 const CHECKING_STATUSES = {
 	default: 0,
@@ -19,6 +20,7 @@ const CHECKING_STATUSES = {
 
 const Settings = () => {
 	const [{ value: apiKeyValue, enabled: apiKeyEnabled }, setApiKey] = useContext(APIContext);
+	const [isDark, setDark] = useContext(ThemeContext);
 	const [inputApiKey, setInputApiKey] = useState(apiKeyValue);
 	const [apiEnabled, setApiEnabled] = useState(apiKeyEnabled);
 	const [checkingStatus, setCheckingStatus] = useState(CHECKING_STATUSES.default);
@@ -29,6 +31,10 @@ const Settings = () => {
 		setApiKey((apiKey) => {
 			return { ...apiKey, enabled: !apiKey.enabled };
 		});
+	}
+
+	function updateTheme() {
+		setDark((prev) => !prev);
 	}
 
 	function updateApiKey(e) {
@@ -64,6 +70,7 @@ const Settings = () => {
 			<form className="settings_form" onSubmit={handleSubmit}>
 				<TextField disabled={checkingStatus === CHECKING_STATUSES.ongoing} label="API Key" variant="standard" color="secondary" error={checkingStatus === CHECKING_STATUSES.fail} helperText={checkingStatus === CHECKING_STATUSES.fail && 'Invalid API Key'} defaultValue={inputApiKey} onChange={updateApiKey} />
 				<FormControlLabel checked={apiEnabled} onChange={updateEnabled} control={<Switch color="secondary" />} label="Use API" />
+				<FormControlLabel checked={isDark} onChange={updateTheme} control={<Switch color="secondary" />} label="Dark Mode" />
 
 				<button type="submit" disabled={checkingStatus === CHECKING_STATUSES.ongoing} className="btn" style={{ width: 'min-content', margin: 'auto' }}>
 					SAVE
