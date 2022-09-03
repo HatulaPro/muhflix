@@ -28,8 +28,8 @@ const MovieRatings = ({ movieDetails }) => {
 	return (
 		<div className="movieRatings">
 			{ratings.map(([key, value]) => (
-				<div className="movieRatings_pair">
-					<img className="movieRatings_image" key={key} src={keyToImage.get(key)} alt={key} /> <span style={{ textDecorationColor: colorOfRating(value) }}>{value <= 10 ? value * 10 : value}%</span>
+				<div className="movieRatings_pair" key={key}>
+					<img className="movieRatings_image" src={keyToImage.get(key)} alt={key} /> <span style={{ textDecorationColor: colorOfRating(value) }}>{value <= 10 ? value * 10 : value}%</span>
 				</div>
 			))}
 		</div>
