@@ -6,7 +6,6 @@ function getApiKeyFromLocalStorage() {
 }
 
 const APIContext = createContext(API_KEY_FILLER);
-const APIContextSetter = createContext();
 
 function APIContextProvider({ children }) {
 	const [apiKey, setApiKey] = useState(getApiKeyFromLocalStorage);
@@ -18,4 +17,4 @@ function APIContextProvider({ children }) {
 	return <APIContext.Provider value={[apiKey, setApiKey]}>{children}</APIContext.Provider>;
 }
 
-export { APIContext, APIContextSetter, APIContextProvider, API_KEY_FILLER };
+export { APIContext, APIContextProvider, API_KEY_FILLER };
