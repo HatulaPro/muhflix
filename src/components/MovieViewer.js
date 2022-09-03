@@ -25,7 +25,8 @@ const MovieViewer = ({ movie, index, currentShowingIndex, setShowingIndex, ...re
 
 	return (
 		<div className="movieViewer" onClick={loadDetails} {...rest}>
-			<ImageLoader src={movie.image} alt={movie.fullTitle} loading="lazy" />
+			<div className="movieViewer_movieTitle">{movie.title}</div>
+			<ImageLoader src={movie.image} alt={movie.fullTitle} />
 			{movie.rank && <span className="movieViewer_rank">#{movie.rank}</span>}
 			<MovieDetails show={index === currentShowingIndex} update={update} movieDetails={movieDetails} />
 		</div>

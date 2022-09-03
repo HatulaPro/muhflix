@@ -28,3 +28,21 @@
 	left: 2px;
 	bottom: 2px;
 }
+
+.movieViewer .movieViewer_movieTitle {
+	position: absolute;
+	background-color: #141414cc;
+	font-size: 18px;
+	font-weight: bold;
+	width: 105%;
+	padding: 2px 8px;
+	text-align: center;
+	top: 0;
+	left: 50%;
+	transform: translateY(-120%) translateX(-50%);
+	z-index: 2;
+	transition: 0.2s all;
+}
+.movieViewer:hover .movieViewer_movieTitle {
+	transform: translateY(10%) translateX(-50%);
+}
