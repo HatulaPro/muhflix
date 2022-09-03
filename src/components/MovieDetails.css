@@ -85,18 +85,18 @@
 	gap: 0.3rem;
 	margin: 4px auto;
 	padding: 4px;
-	overflow-x: hidden;
+	overflow-x: clip;
 }
 
 .movieDetails_actor {
 	text-align: center;
 	height: 140px;
 	position: relative;
-	overflow: hidden;
-	flex: 1;
-	flex-shrink: 0.01;
-	flex-basis: 140px;
-	transition: 0.2s all linear;
+	flex: 1 1;
+	flex-grow: 2;
+	flex-basis: 300px;
+	width: 300px;
+	transition: 0.3s all;
 }
 .movieDetails_actor p {
 	background-color: #141414;
@@ -127,7 +127,9 @@
 }
 
 .movieDetails_actorShrink {
-	flex-shrink: 0.2;
+	width: 0;
+	flex-basis: 0;
+	opacity: 0;
 }
 .movieDetails_actor img {
 	height: 100%;

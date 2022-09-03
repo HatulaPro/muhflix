@@ -56,7 +56,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 								<div className="movieDetails_castScroller">
 									{movieDetails &&
 										movieDetails.actorList.slice(actorsStart, actorsStart + 12).map((actor, index) => (
-											<div className={`movieDetails_actor ${!index && 'movieDetails_actorShrink'}`} key={actor.id}>
+											<div className={`movieDetails_actor ${index === 0 && 'movieDetails_actorShrink'}`} key={actor.id}>
 												<img src={actor.image} alt={actor.name} />
 												<p>{actor.name}</p>
 												<p>{actor.asCharacter}</p>

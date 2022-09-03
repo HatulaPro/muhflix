@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 const ImageLoader = ({ src, ...rest }) => {
-	const [tempImage, setTempImage] = useState('images/play.png');
+	const [tempImage, setTempImage] = useState('/muhflix/images/play.png');
 	useEffect(() => {
 		const image = new Image();
 		image.src = src;
