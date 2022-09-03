@@ -97,6 +97,8 @@
 	flex-basis: 300px;
 	width: 300px;
 	transition: 0.3s all;
+	opacity: 1;
+	transition-delay: 0.1s;
 }
 .movieDetails_actor p {
 	background-color: #141414;
