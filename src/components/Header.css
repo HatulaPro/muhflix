@@ -9,11 +9,11 @@
 	padding: 8px 12px;
 	padding-left: 30px;
 	top: 0;
-	background: linear-gradient(to bottom, #191919, #191919aa, transparent);
+	background: linear-gradient(to bottom, var(--bg-shifted), transparent);
 }
 
 .header_logo {
-	color: violet;
+	color: var(--theme-main);
 	font-size: 22px;
 	font-weight: bold;
 	padding: 4px;
@@ -26,7 +26,7 @@
 	left: 2px;
 	width: 0;
 	height: 2px;
-	background-color: violet;
+	background-color: var(--theme-main);
 	transition: 0.2s all ease;
 }
 .header_logo:hover::after {
@@ -36,13 +36,13 @@
 .header_link {
 	transition: 0.2s all;
 	font-size: 18px;
-	color: #acacac;
+	color: var(--text-faded);
 	text-decoration: none;
 }
 .header_link:hover,
 .header_linkSelected {
 	cursor: pointer;
-	color: white;
+	color: var(--text);
 	transform: translate(-2px, -1px);
 }
 

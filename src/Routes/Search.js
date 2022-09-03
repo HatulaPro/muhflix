@@ -65,7 +65,7 @@ const Search = () => {
 					title={
 						Boolean(query) && (
 							<>
-								{topMoviesOptions.length === 0 ? 'No' : ''} Results For <span style={{ color: 'violet' }}>{query}</span>
+								{topMoviesOptions.length === 0 ? 'No' : ''} Results For <span style={{ color: 'var(--theme-main)' }}>{query}</span>
 							</>
 						)
 					}

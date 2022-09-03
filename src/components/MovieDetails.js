@@ -90,7 +90,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 								<p>{releaseDate.toLocaleDateString() || 'In the future'}</p>
 								{releaseDate > nowDate && (
 									<p>
-										<b style={{ color: 'white' }}>{parseInt((releaseDate - nowDate) / (1000 * 60 * 60 * 24))} days until release!</b>
+										<b style={{ color: 'var(--theme-secondary)' }}>{parseInt((releaseDate - nowDate) / (1000 * 60 * 60 * 24))} days until release!</b>
 									</p>
 								)}
 							</div>

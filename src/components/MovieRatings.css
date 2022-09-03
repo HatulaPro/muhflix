@@ -8,13 +8,13 @@
 	gap: 8px;
 	vertical-align: middle;
 	padding: 6px;
-	background-color: #454545;
-	color: white;
+	background-color: var(--table-dark);
+	color: var(--text);
 	justify-content: space-around;
 	height: 44px;
 }
 .movieRatings_pair:nth-of-type(2n + 1) {
-	background-color: #656565;
+	background-color: var(--table-light);
 }
 
 .movieRatings_pair span {

@@ -4,8 +4,8 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #141414;
-	color: white;
+	background-color: var(--bg);
+	color: var(--text);
 }
 
 code {
@@ -13,9 +13,9 @@ code {
 }
 
 .btn {
-	background-color: white;
+	background-color: var(--bg-alt);
 	border: 2px solid transparent;
-	color: black;
+	color: var(--text-alt);
 	padding: 8px 12px;
 	font-size: 18px;
 	border-radius: 6px;
@@ -23,8 +23,7 @@ code {
 	transition: 0.2s all;
 }
 .btn:disabled {
-	background-color: #ccc;
-	color: #333;
+	filter: contrast(0.6);
 }
 .btn:not(:disabled):active {
 	border: 2px solid darkviolet;
@@ -32,7 +31,7 @@ code {
 
 .btn:not(:disabled):hover {
 	cursor: pointer;
-	background-color: rgb(205, 205, 205);
+	filter: contrast(0.8);
 }
 
 .action-btn {
@@ -57,15 +56,15 @@ code {
 }
 
 .info-btn {
-	background-image: url(/public/images/info.png);
+	background-image: var(--info-url);
 }
 .play-btn {
-	background-image: url(/public/images/play.png);
+	background-image: var(--play-url);
 }
 
 .scrollbar::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 3px rgba(100, 100, 100, 0.3);
-	box-shadow: inset 0 0 3px rgba(100, 100, 100, 0.3);
+	-webkit-box-shadow: inset 0 0 3px var(--scroller-bg);
+	box-shadow: inset 0 0 3px var(--scroller-bg);
 	border-radius: 10px;
 	background-color: transparent;
 }
@@ -76,9 +75,9 @@ code {
 
 .scrollbar::-webkit-scrollbar-thumb {
 	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-	background-color: #888;
+	-webkit-box-shadow: inset 0 0 6px #0000004d;
+	box-shadow: inset 0 0 6px #0000004d;
+	background-color: var(--scroller-thumb);
 }
 
 .flexLineBreak {
@@ -90,9 +89,9 @@ iframe {
 }
 
 a {
-	color: lightskyblue;
+	color: var(--text-info);
 }
 
 a:hover {
-	color: cornflowerblue;
+	color: var(--text-info-alt);
 }

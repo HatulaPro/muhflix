@@ -19,7 +19,6 @@
 	width: 100%;
 	flex: 2;
 	min-width: 40vw;
-	/* min-height: 40vh; */
 }
 
 .topMovie_main {
@@ -30,8 +29,8 @@
 	flex: 3;
 	align-items: center;
 	background-position: center;
-	-webkit-mask-image: linear-gradient(to bottom, transparent 3%, white 25%, white 75%, transparent 97%);
-	mask-image: linear-gradient(to bottom, transparent 3%, white 25%, white 75%, transparent 97%);
+	-webkit-mask-image: var(--bg-mask);
+	mask-image: var(--bg-mask);
 }
 
 .topMovie_info {
@@ -42,17 +41,17 @@
 	flex: 3;
 	padding: 2rem;
 	border-radius: 16px;
-	background: linear-gradient(to bottom, #1919190f 10%, #19191980, #1919190f 90%);
-	text-shadow: 2px 2px black;
+	background: linear-gradient(to bottom, var(--bg-trans-end) 10%, var(--bg-trans-start), var(--bg-trans-end) 90%);
+	text-shadow: 2px 2px var(--text-shadow);
 }
 .topMovie_info span,
 .topMovie_info p {
-	text-shadow: 1px 1px black;
+	text-shadow: 1px 1px var(--text-shadow);
 }
 .topMovie .topMovie_numberOne {
 	text-decoration: underline;
 	font-style: italic;
-	color: violet;
+	color: var(--theme-main);
 	font-size: 2.8rem;
 }
 
@@ -61,7 +60,8 @@
 }
 .topMovie_title span {
 	font-size: 1.6rem;
-	color: hsl(300, 76%, 85%);
+	color: var(--theme-main);
+	filter: brightness(1.2);
 }
 
 .topMovie_trailerDiv {
@@ -88,7 +88,7 @@
 }
 
 .topMovie_trailerDiv p {
-	background-color: #191919;
+	background-color: var(--bg-shifted);
 	opacity: 0;
 	font-size: 14px;
 	bottom: 0;

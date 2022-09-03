@@ -13,7 +13,7 @@
 .movieViewer .movieViewer_rank {
 	position: absolute;
 	display: block;
-	color: violet;
+	color: var(--theme-main);
 	bottom: 8px;
 	left: 4px;
 	font-size: 30px;
@@ -32,7 +32,8 @@
 
 .movieViewer .movieViewer_movieTitle {
 	position: absolute;
-	background-color: #141414cc;
+	background-color: var(--bg);
+	opacity: 0.9;
 	font-size: 18px;
 	font-weight: bold;
 	width: 105%;

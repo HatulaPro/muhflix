@@ -11,7 +11,7 @@
 	margin-right: 30px;
 }
 .IMDBRating .IMDBRating_IMDBStar {
-	color: #f5c518;
+	color: var(--theme-secondary);
 }
 
 .IMDBRating span {

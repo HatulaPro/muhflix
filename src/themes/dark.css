@@ -1,0 +1,28 @@
+:root {
+	--theme-main: violet;
+	--theme-secondary: #f5c518;
+
+	--bg: #141414;
+	--bg-trans-start: #19191980;
+	--bg-trans-end: #1919190f;
+	--bg-mask: linear-gradient(to bottom, transparent 3%, white 25%, white 75%, transparent 97%);
+	--bg-shifted: #191919;
+	--bg-alt: white;
+	--bg-danger: #850000;
+	--text: white;
+	--text-shadow: black;
+	--text-alt: black;
+	--text-info: lightskyblue;
+	--text-info-alt: cornflowerblue;
+	--text-active: blueviolet;
+	--text-faded: #acacac;
+
+	--table-light: #656565;
+	--table-dark: #454545;
+
+	--scroller-bg: #6464644d;
+	--scroller-thumb: #ccc;
+
+	--play-url: url('/public/images/play-dark.png');
+	--info-url: url('/public/images/info-dark.png');
+}

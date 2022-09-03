@@ -27,7 +27,6 @@
 	transform: scale(0);
 	width: 0;
 	opacity: 0;
-	/* flex-shrink: 9; */
 	flex-basis: 0;
 }
 
@@ -37,7 +36,6 @@
 	transform: scale(0);
 	overflow: hidden;
 	filter: grayscale(1);
-	/* flex-shrink: 9; */
 	flex-basis: 0;
 	flex-grow: 0;
 }

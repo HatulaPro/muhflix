@@ -28,7 +28,7 @@
 	position: absolute;
 	width: var(--size);
 	height: var(--size);
-	background-color: violet;
+	background-color: var(--theme-main);
 	border-radius: 50%;
 	left: calc(50% - var(--size) / 2);
 	top: calc(50% - var(--size) / 2);

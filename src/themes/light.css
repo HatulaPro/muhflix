@@ -1,0 +1,28 @@
+:root {
+	--theme-main: hsl(300, 76%, 60%);
+	--theme-secondary: #f5c518;
+
+	--bg: hsl(300, 76%, 96%);
+	--bg-trans-start: #ffffff50;
+	--bg-trans-end: #ffffff20;
+	--bg-mask: none;
+	--bg-shifted: #e9e9e9;
+	--bg-alt: #141414;
+	--bg-danger: #ff3b3b;
+	--text: black;
+	--text-shadow: transparent;
+	--text-alt: white;
+	--text-info: lightskyblue;
+	--text-info-alt: cornflowerblue;
+	--text-active: blueviolet;
+	--text-faded: #656565;
+
+	--table-light: #bababa;
+	--table-dark: #a1a1a1;
+
+	--scroller-bg: #6464644d;
+	--scroller-thumb: #ccc;
+
+	--play-url: url('/public/images/play-light.png');
+	--info-url: url('/public/images/info-light.png');
+}
