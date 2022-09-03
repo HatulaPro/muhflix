@@ -5,6 +5,8 @@ import MovieRatings from './MovieRatings';
 const MovieDetails = ({ show, update, movieDetails }) => {
 	const refToTop = useRef(null);
 	const trailerHeadingRef = useRef(null);
+	const [actorsStart, setActorsStart] = useState(0);
+
 	useEffect(() => {
 		if (show) {
 			document.body.style.overflow = 'hidden';
@@ -18,12 +20,12 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 		};
 	}, [show]);
 
-	const [actorsStart, setActorsStart] = useState(0);
 	function moveActorsForward() {
-		setActorsStart((actorsStart + 1) % movieDetails.fullCast.actors.length);
+		const practicalLength = movieDetails.fullCast.actors.length - 2;
+		setActorsStart(Math.min(actorsStart + 1, practicalLength - 1) % practicalLength);
 	}
 	function moveActorsBack() {
-		setActorsStart(Math.max(actorsStart - 1, 0) % movieDetails.fullCast.actors.length);
+		setActorsStart(Math.max(actorsStart - 1, 0));
 	}
 
 	const releaseDate = new Date(movieDetails?.releaseDate || '01/01/1999');
