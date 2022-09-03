@@ -18,8 +18,8 @@
 }
 .movieListViewer_listWrapped > * {
 	transition: 300ms all ease-out;
-	flex: 0;
-	flex-grow: 0.5;
+	flex: 0 1;
+	flex-basis: 200px;
 }
 
 .item-enter-active {
@@ -27,7 +27,8 @@
 	transform: scale(0);
 	width: 0;
 	opacity: 0;
-	flex-shrink: 9;
+	/* flex-shrink: 9; */
+	flex-basis: 0;
 }
 
 .item-exit-active {
@@ -36,7 +37,8 @@
 	transform: scale(0);
 	overflow: hidden;
 	filter: grayscale(1);
-	flex-shrink: 9;
+	/* flex-shrink: 9; */
+	flex-basis: 0;
 	flex-grow: 0;
 }
 .item-exit-done {
