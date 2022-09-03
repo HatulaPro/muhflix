@@ -16,6 +16,7 @@ const Main = () => {
 			setMostPopularMovies(mostPopularResults.data.items);
 			setInTheatersMovies(inTheatersResults.data.items);
 		});
+		document.title = 'Muhflix | Home';
 	}, [apiKey]);
 
 	return (

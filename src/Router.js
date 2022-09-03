@@ -1,6 +1,5 @@
 import Main from './Routes/Main';
 import Search from './Routes/Search';
-import LoadingScreen from './Routes/LoadingScreen';
 import Settings from './Routes/Settings';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import './App.css';
@@ -15,7 +14,6 @@ const Router = () => {
 					<Route exact path="/" element={<Main />} />
 					<Route exact path="/search" element={<Search />} />
 					<Route exact path="/settings" element={<Settings />} />
-					<Route exact path="/load_debug" element={<LoadingScreen />} />
 				</Routes>
 			</CSSTransition>
 		</TransitionGroup>

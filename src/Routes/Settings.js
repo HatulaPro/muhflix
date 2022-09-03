@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import './Settings.css';
 
 import TextField from '@mui/material/TextField';
@@ -25,6 +25,10 @@ const Settings = () => {
 	const [apiEnabled, setApiEnabled] = useState(apiKeyEnabled);
 	const [checkingStatus, setCheckingStatus] = useState(CHECKING_STATUSES.default);
 	const [requestsLeft, setRequestsLeft] = useState(-1);
+
+	useEffect(() => {
+		document.title = 'Muhflix | Settings';
+	}, []);
 
 	function updateEnabled() {
 		setApiEnabled((prev) => !prev);

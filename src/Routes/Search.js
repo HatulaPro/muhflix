@@ -36,6 +36,14 @@ const Search = () => {
 	}
 
 	useEffect(() => {
+		if (query) {
+			document.title = `Muhflix | Search results for "${query}"`;
+		} else {
+			document.title = 'Muhflix | Search';
+		}
+	}, [query]);
+
+	useEffect(() => {
 		const results = fetchTop250(apiKey);
 		results.then((top250) => {
 			setTop250Movies(
