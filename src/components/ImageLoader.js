@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const ImageLoader = ({ src, ...rest }) => {
+const ImageLoader = ({ src, alt, ...rest }) => {
 	const [tempImage, setTempImage] = useState('/muhflix/images/play.png');
 	useEffect(() => {
 		const image = new Image();
@@ -16,7 +16,7 @@ const ImageLoader = ({ src, ...rest }) => {
 		};
 	}, [src]);
 
-	return <img src={tempImage} {...rest} />;
+	return <img src={tempImage} alt={alt} {...rest} />;
 };
 
 export default ImageLoader;
