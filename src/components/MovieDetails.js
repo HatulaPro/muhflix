@@ -5,7 +5,7 @@ import MovieCast from './MovieCast';
 
 const MovieDetails = ({ show, update, movieDetails }) => {
 	const refToTop = useRef(null);
-	const trailerHeadingRef = useRef(null);
+	const trailerHeadingRef = useRef({ clientWidth: 1200 });
 
 	useEffect(() => {
 		if (show) {
@@ -23,10 +23,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 	const releaseDate = new Date(movieDetails?.releaseDate || '01/01/1999');
 	const nowDate = new Date();
 
-	let trailerScale = '1';
-	if (trailerHeadingRef.current) {
-		trailerScale = `${Math.min((0.95 * trailerHeadingRef.current.clientWidth) / 858, 1)}`;
-	}
+	const trailerScale = `${(0.95 * trailerHeadingRef.current.clientWidth) / 858}`;
 
 	return (
 		<div className={`scrollbar movieDetails ${show && 'movieDetails_show'}`} onClick={update} ref={refToTop}>
