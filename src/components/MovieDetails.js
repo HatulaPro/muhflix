@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import './MovieDetails.css';
 import MovieRatings from './MovieRatings';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 const MovieDetails = ({ show, update, movieDetails }) => {
 	const refToTop = useRef(null);
@@ -53,16 +54,20 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 								<button className="btn movieDetails_scrollButtons" onClick={moveActorsBack}>
 									&lt;
 								</button>
-								<div className="movieDetails_castScroller">
+								<TransitionGroup component={'div'} className="movieDetails_castScroller" appear={false}>
 									{movieDetails &&
-										movieDetails.actorList.slice(actorsStart, actorsStart + 12).map((actor, index) => (
-											<div className={`movieDetails_actor ${index === 0 && 'movieDetails_actorShrink'}`} key={actor.id}>
-												<img src={actor.image} alt={actor.name} />
-												<p>{actor.name}</p>
-												<p>{actor.asCharacter}</p>
-											</div>
-										))}
-								</div>
+										movieDetails.actorList.map((actor, index) =>
+											index >= actorsStart && index < actorsStart + 12 ? (
+												<CSSTransition key={actor.id} timeout={{ appear: 0, enter: 200, exit: 200 }} classNames="movieDetails_shrink">
+													<div className="movieDetails_actor">
+														<img src={actor.image} alt={actor.name} />
+														<p>{actor.name}</p>
+														<p>{actor.asCharacter}</p>
+													</div>
+												</CSSTransition>
+											) : null
+										)}
+								</TransitionGroup>
 								<button className="btn movieDetails_scrollButtons" onClick={moveActorsForward}>
 									&gt;
 								</button>
