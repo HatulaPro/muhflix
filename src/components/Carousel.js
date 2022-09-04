@@ -3,6 +3,7 @@ import './Carousel.css';
 
 const Carousel = ({ movieDetails, bottomText, bottomTextTitle }) => {
 	const [images, setImages] = useState(['#1', '#2', '#3']);
+	const [isHovering, setHovering] = useState(false);
 
 	useEffect(() => {
 		if (movieDetails?.posters?.posters) {
@@ -15,17 +16,19 @@ const Carousel = ({ movieDetails, bottomText, bottomTextTitle }) => {
 		return () => {
 			clearInterval(interval);
 		};
-	}, []);
+	}, [isHovering]);
 
-	function shiftImages() {
-		setImages((oldImages) => {
-			oldImages.push(oldImages.shift());
-			return [...oldImages];
-		});
+	function shiftImages(e) {
+		if (e || !isHovering) {
+			setImages((oldImages) => {
+				oldImages.push(oldImages.shift());
+				return [...oldImages];
+			});
+		}
 	}
 
 	return (
-		<div className="carousel">
+		<div className="carousel" onPointerEnter={() => setHovering(true)} onPointerLeave={() => setHovering(false)}>
 			<div className="carousel_images">
 				{images.map((image, index) => (
 					<img className="carousel_image" src={image} key={image} alt={`${index} poster`} onClick={shiftImages} />
