@@ -1,7 +1,7 @@
 :root {
 	--theme-name: 'LIGHT_THEME_NAME';
 	--theme-main: hsl(300, 76%, 60%);
-	--theme-secondary: #f5c518;
+	--theme-secondary: #e99d00;
 
 	--bg: hsl(300, 76%, 96%);
 	--bg-trans-start: #ffffff50;
