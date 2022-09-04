@@ -23,7 +23,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 	const releaseDate = new Date(movieDetails?.releaseDate || '01/01/1999');
 	const nowDate = new Date();
 
-	let trailerScale = '0';
+	let trailerScale = '1';
 	if (trailerHeadingRef.current) {
 		trailerScale = `${Math.min((0.95 * trailerHeadingRef.current.clientWidth) / 858, 1)}`;
 	}
@@ -75,13 +75,15 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 							</div>
 						</div>
 						<div className="movieDetails_section">
-							<h3 ref={trailerHeadingRef}>Ratings: </h3>
+							<h3>Ratings: </h3>
 							<MovieRatings movieDetails={movieDetails} />
 						</div>
-						<div className="movieDetails_section movieDetails_trailer">
+						<div className="movieDetails_section movieDetails_trailer" ref={trailerHeadingRef}>
 							<h3>{movieDetails?.trailer?.videoTitle}</h3>
 							<p>{movieDetails?.trailer?.videoDescription}</p>
-							<iframe title={movieDetails?.trailer?.title} src={movieDetails?.trailer?.linkEmbed} height="100%" style={{ width: '858px', aspectRatio: '2', marginTop: '-20px', scale: trailerScale }} />
+							<div style={{ width: `calc(858px * ${trailerScale})`, height: `calc(858px * ${trailerScale} / 2)`, position: 'relative', margin: '20px 0px' }}>
+								<iframe title={movieDetails?.trailer?.title} src={movieDetails?.trailer?.linkEmbed} style={{ width: '858px', height: `${858 / 2}px`, transform: `scale(${trailerScale})`, transformOrigin: '0 0', inset: '0' }} />
+							</div>
 						</div>
 						<div className="movieDetails_wiki">
 							<a href={movieDetails?.wikipedia.url}>

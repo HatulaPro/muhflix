@@ -86,6 +86,7 @@ code {
 iframe {
 	border: none;
 	border-radius: 20px;
+	pointer-events: unset !important;
 }
 
 a {
