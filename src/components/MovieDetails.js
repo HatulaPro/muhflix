@@ -1,12 +1,11 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import './MovieDetails.css';
 import MovieRatings from './MovieRatings';
-import { CSSTransition, TransitionGroup } from 'react-transition-group';
+import MovieCast from './MovieCast';
 
 const MovieDetails = ({ show, update, movieDetails }) => {
 	const refToTop = useRef(null);
 	const trailerHeadingRef = useRef(null);
-	const [actorsStart, setActorsStart] = useState(0);
 
 	useEffect(() => {
 		if (show) {
@@ -20,14 +19,6 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 			document.body.style.overflow = 'unset';
 		};
 	}, [show]);
-
-	function moveActorsForward() {
-		const practicalLength = movieDetails.fullCast.actors.length - 2;
-		setActorsStart(Math.min(actorsStart + 1, practicalLength - 1) % practicalLength);
-	}
-	function moveActorsBack() {
-		setActorsStart(Math.max(actorsStart - 1, 0));
-	}
 
 	const releaseDate = new Date(movieDetails?.releaseDate || '01/01/1999');
 	const nowDate = new Date();
@@ -50,28 +41,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 						</h2>
 						<div className="movieDetails_section">
 							<h3>Cast:</h3>
-							<div className="movieDetails_castContent">
-								<button className="btn movieDetails_scrollButtons" onClick={moveActorsBack}>
-									&lt;
-								</button>
-								<TransitionGroup component={'div'} className="movieDetails_castScroller" appear={false}>
-									{movieDetails &&
-										movieDetails.actorList.map((actor, index) =>
-											index >= actorsStart && index < actorsStart + 12 ? (
-												<CSSTransition key={actor.id} timeout={{ appear: 0, enter: 200, exit: 200 }} classNames="movieDetails_shrink">
-													<div className="movieDetails_actor">
-														<img src={actor.image} alt={actor.name} />
-														<p>{actor.name}</p>
-														<p>{actor.asCharacter}</p>
-													</div>
-												</CSSTransition>
-											) : null
-										)}
-								</TransitionGroup>
-								<button className="btn movieDetails_scrollButtons" onClick={moveActorsForward}>
-									&gt;
-								</button>
-							</div>
+							{movieDetails && <MovieCast actorList={movieDetails.actorList} />}
 						</div>
 
 						<div className="movieDetails_info">

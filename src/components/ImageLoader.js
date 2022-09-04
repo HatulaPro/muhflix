@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
+import LoadingImage from '../images/loading.png';
 
 const ImageLoader = ({ src, alt, ...rest }) => {
-	const [tempImage, setTempImage] = useState('/muhflix/images/play.png');
+	const [tempImage, setTempImage] = useState(LoadingImage);
 	useEffect(() => {
 		const image = new Image();
 		image.src = src;
