@@ -30,7 +30,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 
 	return (
 		<div className={`scrollbar movieDetails ${show && 'movieDetails_show'}`} onClick={update} ref={refToTop}>
-			<div className={`movieDetails_movieInfo ${show && 'movieDetails_movieInfoShow'}`} onClick={(e) => e.stopPropagation()}>
+			<div className={`movieDetails_movieInfo ${show && 'movieDetails_movieInfoShow'}`} onClick={(e) => e.stopPropagation()} ref={trailerHeadingRef}>
 				{show && (
 					<>
 						<button className="btn movieDetails_close" onClick={update}>
@@ -78,11 +78,11 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 							<h3>Ratings: </h3>
 							<MovieRatings movieDetails={movieDetails} />
 						</div>
-						<div className="movieDetails_section movieDetails_trailer" ref={trailerHeadingRef}>
+						<div className="movieDetails_section movieDetails_trailer">
 							<h3>{movieDetails?.trailer?.videoTitle}</h3>
 							<p>{movieDetails?.trailer?.videoDescription}</p>
 							<div style={{ width: `calc(858px * ${trailerScale})`, height: `calc(858px * ${trailerScale} / 2)`, position: 'relative', margin: '20px 0px' }}>
-								<iframe title={movieDetails?.trailer?.title} src={movieDetails?.trailer?.linkEmbed} style={{ width: '858px', height: `${858 / 2}px`, transform: `scale(${trailerScale})`, transformOrigin: '0 0', inset: '0' }} />
+								<iframe title={movieDetails?.trailer?.title} src={movieDetails?.trailer?.linkEmbed} style={{ width: '858px', height: `${858 / 2}px`, transform: `scale(${trailerScale})`, transformOrigin: '0 0', inset: '0', position: 'absolute' }} />
 							</div>
 						</div>
 						<div className="movieDetails_wiki">
