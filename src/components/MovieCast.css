@@ -63,7 +63,7 @@
 }
 .movieCast_shrink-exit-active,
 .movieCast_shrink-enter-active {
-	transition: 0.15s width ease-in-out, 0.15s flex-basis ease-in-out, 0.15s opacity ease-in-out;
+	transition: 0.1s width ease-in-out, 0.08s flex-basis ease-in-out, 0.08s opacity ease-in-out;
 	width: 0;
 	flex-basis: 0;
 	opacity: 0;
@@ -76,7 +76,7 @@
 	opacity: 0;
 }
 .movieCast_shrink-enter-done {
-	transition: 0.15s width ease-in-out, 0.15s flex-basis ease-in-out, 0.15s opacity ease-in-out;
+	transition: 0.08s width ease-in-out, 0.08s flex-basis ease-in-out, 0.08s opacity ease-in-out;
 	flex-basis: 300px;
 	opacity: 1;
 }
