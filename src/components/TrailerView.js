@@ -14,7 +14,7 @@ const TrailerView = ({ trailer, show, update }) => {
 		<div className={'trailerView_trailerViewerDiv ' + (show ? 'trailerView_trailerViewerDivShow' : '')} onClick={update}>
 			<div className="trailerView_trailerViewerDivBG" ref={bgRef} onClick={update}></div>
 			<ErrorBoundary onError={() => {}} FallbackComponent={<></>}>
-				{trailer && show && <iframe title={trailer.title} src={trailer.linkEmbed} height="100%" style={{ scale: trailerScale }} />}
+				{trailer && show && <iframe title={trailer.title} src={trailer.linkEmbed} allowFullScreen="true" allow="fullscreen" height="100%" style={{ scale: trailerScale }} />}
 			</ErrorBoundary>
 		</div>
 	);
