@@ -40,7 +40,7 @@ const TopMovie = ({ movie }) => {
 	return (
 		<div className="topMovie">
 			{<TrailerView trailer={movieDetails?.trailer} show={showTrailer} update={handleTrailerOpen} />}
-			{showInfo && <MovieDetails show={showInfo} update={handleInfoOpen} movieDetails={movieDetails} />}
+			<MovieDetails show={showInfo} update={handleInfoOpen} movieDetails={movieDetails} />
 			<div className="topMovie_main" style={isSmallScreen ? {} : backgroundImage}>
 				<div className="topMovie_info">
 					<h1 className="topMovie_title" style={isSmallScreen ? backgroundImage : {}}>
