@@ -5,7 +5,7 @@ import TextField from '@mui/material/TextField';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import { APIContext, API_KEY_FILLER } from '../APIContext';
-import { CircularProgress } from '@mui/material';
+import { Button, CircularProgress, InputAdornment } from '@mui/material';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import DoneIcon from '@mui/icons-material/Done';
 import { validateAPIKey } from '../axios';
@@ -72,13 +72,28 @@ const Settings = () => {
 		<div className="settings">
 			<h1>Settings</h1>
 			<form className="settings_form" onSubmit={handleSubmit}>
-				<TextField disabled={checkingStatus === CHECKING_STATUSES.ongoing} label="API Key" variant="standard" color="secondary" error={checkingStatus === CHECKING_STATUSES.fail} helperText={checkingStatus === CHECKING_STATUSES.fail && 'Invalid API Key'} defaultValue={inputApiKey} onChange={updateApiKey} />
+				<TextField
+					disabled={checkingStatus === CHECKING_STATUSES.ongoing}
+					label="API Key"
+					variant="standard"
+					color="secondary"
+					error={checkingStatus === CHECKING_STATUSES.fail}
+					helperText={checkingStatus === CHECKING_STATUSES.fail && 'Invalid API Key'}
+					defaultValue={inputApiKey}
+					onChange={updateApiKey}
+					InputProps={{
+						endAdornment: (
+							<InputAdornment>
+								<Button type="submit" color="secondary" size="small" disabled={checkingStatus === CHECKING_STATUSES.ongoing}>
+									VERIFY KEY
+								</Button>
+							</InputAdornment>
+						),
+					}}
+				/>
+
 				<FormControlLabel checked={apiEnabled} onChange={updateEnabled} control={<Switch color="secondary" />} label="Use API" />
 				<FormControlLabel checked={isDark} onChange={updateTheme} control={<Switch color="secondary" />} label="Dark Mode" />
-
-				<button type="submit" disabled={checkingStatus === CHECKING_STATUSES.ongoing} className="btn" style={{ width: 'min-content', margin: 'auto' }}>
-					SAVE
-				</button>
 
 				<TransitionGroup component={null}>
 					<CSSTransition key={checkingStatus + requestsLeft} classNames="fade" timeout={500}>
