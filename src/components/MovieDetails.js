@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import './MovieDetails.css';
 import MovieRatings from './MovieRatings';
 import MovieCast from './MovieCast';
+import Trailer from './Trailer';
 
 const MovieDetails = ({ show, update, movieDetails }) => {
 	const refToTop = useRef(null);
@@ -22,8 +23,6 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 
 	const releaseDate = new Date(movieDetails?.releaseDate || '01/01/1999');
 	const nowDate = new Date();
-
-	const trailerScale = `${(0.95 * trailerHeadingRef.current.clientWidth) / 858}`;
 
 	return (
 		<div className={`scrollbar movieDetails ${show && 'movieDetails_show'}`} onClick={update} ref={refToTop}>
@@ -78,9 +77,7 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 						<div className="movieDetails_section movieDetails_trailer">
 							<h3>{movieDetails?.trailer?.videoTitle}</h3>
 							<p>{movieDetails?.trailer?.videoDescription}</p>
-							<div style={{ width: `calc(858px * ${trailerScale})`, height: `calc(858px * ${trailerScale} / 2)`, position: 'relative', margin: '20px 0px' }}>
-								<iframe title={movieDetails?.trailer?.title} src={movieDetails?.trailer?.linkEmbed} allowFullScreen="true" allow="fullscreen" style={{ width: '858px', height: `${858 / 2}px`, transform: `scale(${trailerScale})`, transformOrigin: '0 0', inset: '0', position: 'absolute' }} />
-							</div>
+							<Trailer parentWidth={trailerHeadingRef.current?.clientWidth} title={movieDetails?.trailer?.title} src={movieDetails?.trailer?.linkEmbed} />
 						</div>
 						<div className="movieDetails_wiki">
 							<a href={movieDetails?.wikipedia.url}>
