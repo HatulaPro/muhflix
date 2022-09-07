@@ -39,7 +39,7 @@ const IMDBListViewer = ({ listId, removable }) => {
 							<CloseIcon htmlColor="red" />
 						</IconButton>
 					)}
-					{listDetails.title}
+					{listDetails.title}{' '}
 					<span style={{ fontSize: '16px' }}>
 						by{' '}
 						<a href={`https://www.imdb.com/list/${listId}/`} target="_blank" rel="noopener noreferrer">
