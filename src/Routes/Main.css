@@ -1,0 +1,14 @@
+.main_heading {
+	font-size: 54px;
+	margin: 20px;
+	border-left: 6px solid var(--theme-secondary);
+	padding-left: 8px;
+}
+
+@media screen and (max-width: 720px) {
+	.main_heading {
+		font-size: 36px;
+		margin: 20px auto;
+		text-align: center;
+	}
+}

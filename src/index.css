@@ -96,3 +96,7 @@ a {
 a:hover {
 	color: var(--text-info-alt);
 }
+
+hr {
+	margin-top: 16px !important;
+}

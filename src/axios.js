@@ -3,6 +3,7 @@ import mostPopular from './responses/mostPopular.json';
 import inTheaters from './responses/inTheaters.json';
 import topMovie from './responses/topMovie.json';
 import top250 from './responses/top250.json';
+import lists from './responses/lists.json';
 
 const API_INSTANCE = axios.create({
 	baseURL: 'https://imdb-api.com/en/API/',
@@ -45,6 +46,14 @@ export async function getMovieDetails({ value, enabled }, movieId) {
 		return API_INSTANCE.get(`/Title/${value}/${movieId}/FullActor,FullCast,Posters,Images,Trailer,Ratings,Wikipedia,`);
 	} else {
 		return Promise.resolve({ data: topMovie });
+	}
+}
+
+export async function getList({ value, enabled }, listId) {
+	if (enabled) {
+		return API_INSTANCE.get(`https://imdb-api.com/en/API/IMDbList/${value}/${listId}`);
+	} else {
+		return Promise.resolve({ data: lists });
 	}
 }
 
