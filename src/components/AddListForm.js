@@ -14,8 +14,12 @@ const AddListForm = ({ lists, setLists, onClose }) => {
 	const [loading, setLoading] = useState(false);
 
 	function onValueChange(e) {
-		setValue(e.target.value);
-		setError(null);
+		const regex = /^[a-z0-9]*$/g;
+		const newVal = e.target.value;
+		if (regex.test(newVal) || newVal === '') {
+			setValue(newVal);
+			setError(null);
+		}
 	}
 
 	function addList() {

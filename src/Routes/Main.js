@@ -5,7 +5,7 @@ import LoadingScreen from './LoadingScreen';
 import MovieListViewer from '../components/MovieListViewer';
 import NoAPIKeyWarning from '../components/NoAPIKeyWarning';
 import TopMovie from '../components/TopMovie';
-import { Divider, TextField } from '@mui/material';
+import { Divider } from '@mui/material';
 import IMDBListViewer from '../components/IMDBListViewer';
 import './Main.css';
 import { useLocalStorage } from 'usehooks-ts';
