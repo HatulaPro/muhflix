@@ -11,7 +11,9 @@ const MovieDetails = ({ show, update, movieDetails }) => {
 	useEffect(() => {
 		if (show) {
 			document.body.style.overflow = 'hidden';
-			refToTop.current.scrollTop = 0;
+			setTimeout(() => {
+				refToTop.current.scrollTop = 0;
+			}, 100);
 		} else {
 			document.body.style.overflow = 'unset';
 		}
