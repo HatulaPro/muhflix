@@ -48,3 +48,9 @@
 .movieViewer:hover .movieViewer_movieTitle {
 	transform: translateY(10%) translateX(-50%);
 }
+
+@media screen and (max-width: 720px) {
+	.movieViewer > img {
+		height: 125px;
+	}
+}
