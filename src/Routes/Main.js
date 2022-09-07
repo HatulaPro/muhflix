@@ -8,12 +8,13 @@ import TopMovie from '../components/TopMovie';
 import { Divider } from '@mui/material';
 import IMDBListViewer from '../components/IMDBListViewer';
 import './Main.css';
+import { useLocalStorage } from 'usehooks-ts';
 
 const Main = () => {
 	const [mostPopularMovies, setMostPopularMovies] = useState(null);
 	const [inTheatersMovies, setInTheatersMovies] = useState(null);
 	const [apiKey, setApiKey] = useContext(APIContext);
-	const imdbLists = ['ls004285275', 'ls504069050', 'ls063385017', 'ls058726648', 'ls043300993'];
+	const [imdbLists] = useLocalStorage('IMDB_LISTS', ['ls004285275', 'ls504069050', 'ls063385017', 'ls058726648', 'ls043300993']);
 
 	useEffect(() => {
 		Promise.all([fetchMostPopular(apiKey), fetchInTheaters(apiKey)]).then(([mostPopularResults, inTheatersResults]) => {
@@ -39,7 +40,7 @@ const Main = () => {
 					<Divider sx={{ borderBottomWidth: 5 }} />
 					<h1 className="main_heading">Popular IMDB Lists</h1>
 					{apiKey.enabled ? (
-						imdbLists.map((list) => <IMDBListViewer listId={list} key={list} />)
+						imdbLists.map((list) => <IMDBListViewer listId={list} key={list} removable />)
 					) : (
 						<>
 							<span style={{ marginLeft: '20px' }}>Use your own API key to customize the following lists:</span>
