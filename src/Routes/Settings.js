@@ -4,12 +4,12 @@ import './Settings.css';
 import TextField from '@mui/material/TextField';
 import Switch from '@mui/material/Switch';
 import FormControlLabel from '@mui/material/FormControlLabel';
-import { APIContext, API_KEY_FILLER } from '../APIContext';
+import { APIContext, API_KEY_FILLER } from '../contexts/APIContext';
 import { Button, CircularProgress, InputAdornment } from '@mui/material';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import DoneIcon from '@mui/icons-material/Done';
 import { validateAPIKey } from '../axios';
-import { ThemeContext } from '../ThemeHandler';
+import { ThemeContext } from '../contexts/ThemeHandler';
 
 const CHECKING_STATUSES = {
 	default: 0,

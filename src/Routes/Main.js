@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from 'react';
-import { APIContext } from '../APIContext';
+import { APIContext } from '../contexts/APIContext';
 import { fetchMostPopular, fetchInTheaters } from '../axios';
 import LoadingScreen from './LoadingScreen';
 import MovieListViewer from '../components/MovieListViewer';
@@ -39,7 +39,7 @@ const Main = () => {
 						imdbLists.map((list) => <IMDBListViewer listId={list} key={list} />)
 					) : (
 						<>
-							<span style={{ marginLeft: '20px' }}>No API key available, only showing one list.</span>
+							<span style={{ marginLeft: '20px' }}>Use your own API key to customize the following lists:</span>
 							<IMDBListViewer listId={imdbLists[0]} />
 						</>
 					)}

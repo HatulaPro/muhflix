@@ -1,5 +1,5 @@
 import { useState, useContext, useEffect } from 'react';
-import { APIContext } from '../APIContext';
+import { APIContext } from '../contexts/APIContext';
 import { getList } from '../axios';
 import MovieListViewer from './MovieListViewer';
 

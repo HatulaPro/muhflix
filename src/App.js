@@ -1,9 +1,9 @@
 import './App.css';
 import Header from './components/Header';
 import { BrowserRouter } from 'react-router-dom';
-import { APIContextProvider } from './APIContext';
+import { APIContextProvider } from './contexts/APIContext';
 import Router from './Router';
-import ThemeHandler from './ThemeHandler';
+import ThemeHandler from './contexts/ThemeHandler';
 
 function App() {
 	return (

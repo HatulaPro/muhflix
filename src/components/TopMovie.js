@@ -6,7 +6,7 @@ import TrailerView from './TrailerView';
 import { useMediaQuery } from 'react-responsive';
 import Carousel from './Carousel';
 import MovieDetails from './MovieDetails';
-import { APIContext } from '../APIContext';
+import { APIContext } from '../contexts/APIContext';
 
 const TopMovie = ({ movie }) => {
 	const [movieDetails, setMovieDetails] = useState(null);

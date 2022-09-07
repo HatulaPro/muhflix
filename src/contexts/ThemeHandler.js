@@ -2,8 +2,8 @@ import { useState, useEffect, createContext, Suspense, lazy } from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 
-const DarkTheme = lazy(() => import('./themes/Dark'));
-const LightTheme = lazy(() => import('./themes/Light'));
+const DarkTheme = lazy(() => import('../themes/Dark'));
+const LightTheme = lazy(() => import('../themes/Light'));
 
 const darkMuiTheme = createTheme({
 	palette: {

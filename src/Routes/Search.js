@@ -5,7 +5,7 @@ import MovieListViewer from '../components/MovieListViewer';
 import Autocomplete, { createFilterOptions } from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
 import './Search.css';
-import { APIContext } from '../APIContext';
+import { APIContext } from '../contexts/APIContext';
 import { LinearProgress } from '@mui/material';
 import { CSSTransition } from 'react-transition-group';
 
