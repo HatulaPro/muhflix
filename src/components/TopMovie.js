@@ -40,7 +40,8 @@ const TopMovie = ({ movie }) => {
 	const backgroundImage = { backgroundImage: `url(${movieDetails?.trailer.thumbnailUrl})` };
 
 	return (
-		movieDetails && (
+		movieDetails &&
+		movie && (
 			<div className="topMovie">
 				{<TrailerView trailer={movieDetails?.trailer} show={showTrailer} update={handleTrailerOpen} />}
 				<MovieDetails show={showInfo} update={handleInfoOpen} movieDetails={movieDetails} />
