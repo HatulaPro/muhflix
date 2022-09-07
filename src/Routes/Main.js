@@ -12,16 +12,19 @@ import './Main.css';
 const Main = () => {
 	const [mostPopularMovies, setMostPopularMovies] = useState(null);
 	const [inTheatersMovies, setInTheatersMovies] = useState(null);
-	const [apiKey] = useContext(APIContext);
+	const [apiKey, setApiKey] = useContext(APIContext);
 	const imdbLists = ['ls004285275', 'ls504069050', 'ls063385017', 'ls058726648', 'ls043300993'];
 
 	useEffect(() => {
 		Promise.all([fetchMostPopular(apiKey), fetchInTheaters(apiKey)]).then(([mostPopularResults, inTheatersResults]) => {
+			if (mostPopularResults.data.errorMessage || inTheatersResults.data.errorMessage) {
+				setApiKey({ ...apiKey, enabled: false });
+			}
 			setMostPopularMovies(mostPopularResults.data.items);
 			setInTheatersMovies(inTheatersResults.data.items);
 		});
 		document.title = 'Muhflix | Home';
-	}, [apiKey]);
+	}, [apiKey, setApiKey]);
 
 	return (
 		<div>

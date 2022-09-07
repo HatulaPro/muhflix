@@ -13,19 +13,21 @@ const TopMovie = ({ movie }) => {
 	const [showTrailer, setShowTrailer] = useState(false);
 	const [showInfo, setShowInfo] = useState(false);
 	const isSmallScreen = useMediaQuery({ maxWidth: 992 });
-	const [apiKey] = useContext(APIContext);
+	const [apiKey, setApiKey] = useContext(APIContext);
 
 	useEffect(() => {
 		async function getData() {
 			const res = await getMovieDetails(apiKey, movie.id);
-			if (res) {
+			if (res.data.errorMessage) {
+				setApiKey({ ...apiKey, enabled: false });
+			} else {
 				setMovieDetails(res.data);
 			}
 		}
 		if (movie) {
 			getData();
 		}
-	}, [movie, apiKey]);
+	}, [movie, apiKey, setApiKey]);
 
 	function handleTrailerOpen() {
 		setShowTrailer(!showTrailer);
@@ -38,32 +40,34 @@ const TopMovie = ({ movie }) => {
 	const backgroundImage = { backgroundImage: `url(${movieDetails?.trailer.thumbnailUrl})` };
 
 	return (
-		<div className="topMovie">
-			{<TrailerView trailer={movieDetails?.trailer} show={showTrailer} update={handleTrailerOpen} />}
-			<MovieDetails show={showInfo} update={handleInfoOpen} movieDetails={movieDetails} />
-			<div className="topMovie_main" style={isSmallScreen ? {} : backgroundImage}>
-				<div className="topMovie_info">
-					<h1 className="topMovie_title" style={isSmallScreen ? backgroundImage : {}}>
-						<span className="topMovie_numberOne">#1</span> {movie.title} <span>({movie.year})</span>
-					</h1>
-					<IMDBRating rating={movie.imDbRating} />
-					<span className="topMovie_madeBy">
-						<b>By:</b> {movie.crew}
-					</span>
-					<div className="topMovie_buttons">
-						<button className="btn action-btn info-btn" onClick={handleInfoOpen}>
-							More Info
-						</button>
-						<button className="btn action-btn play-btn" onClick={handleTrailerOpen}>
-							Watch Trailer
-						</button>
+		movieDetails && (
+			<div className="topMovie">
+				{<TrailerView trailer={movieDetails?.trailer} show={showTrailer} update={handleTrailerOpen} />}
+				<MovieDetails show={showInfo} update={handleInfoOpen} movieDetails={movieDetails} />
+				<div className="topMovie_main" style={isSmallScreen ? {} : backgroundImage}>
+					<div className="topMovie_info">
+						<h1 className="topMovie_title" style={isSmallScreen ? backgroundImage : {}}>
+							<span className="topMovie_numberOne">#1</span> {movie.title} <span>({movie.year})</span>
+						</h1>
+						<IMDBRating rating={movie.imDbRating} />
+						<span className="topMovie_madeBy">
+							<b>By:</b> {movie.crew}
+						</span>
+						<div className="topMovie_buttons">
+							<button className="btn action-btn info-btn" onClick={handleInfoOpen}>
+								More Info
+							</button>
+							<button className="btn action-btn play-btn" onClick={handleTrailerOpen}>
+								Watch Trailer
+							</button>
+						</div>
 					</div>
 				</div>
+				<div className="topMovie_carousel">
+					<Carousel movieDetails={movieDetails} bottomText={movieDetails?.stars} bottomTextTitle="Starring: " />
+				</div>
 			</div>
-			<div className="topMovie_carousel">
-				<Carousel movieDetails={movieDetails} bottomText={movieDetails?.stars} bottomTextTitle="Starring: " />
-			</div>
-		</div>
+		)
 	);
 };
 
