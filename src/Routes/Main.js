@@ -48,15 +48,17 @@ const Main = () => {
 					<Divider sx={{ borderBottomWidth: 5 }} />
 
 					<h1 className="main_heading">Popular IMDB Lists</h1>
-					<AddListForm lists={imdbLists} setLists={setImdbLists} onClose={goToBottomRef} />
 					{apiKey.enabled ? (
-						<TransitionGroup>
-							{imdbLists.map((list) => (
-								<CSSTransition key={list} classNames="fade" timeout={300}>
-									<IMDBListViewer listId={list} removable />
-								</CSSTransition>
-							))}
-						</TransitionGroup>
+						<>
+							<AddListForm lists={imdbLists} setLists={setImdbLists} onClose={goToBottomRef} />
+							<TransitionGroup>
+								{imdbLists.map((list) => (
+									<CSSTransition key={list} classNames="fade" timeout={300}>
+										<IMDBListViewer listId={list} removable />
+									</CSSTransition>
+								))}
+							</TransitionGroup>
+						</>
 					) : (
 						<>
 							<span style={{ marginLeft: '20px' }}>Use your own API key to customize the following lists:</span>
