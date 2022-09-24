@@ -15,3 +15,9 @@
 	visibility: visible;
 	opacity: 1;
 }
+
+@media screen and (max-width: 992px) {
+	.search {
+		padding-inline: 6px;
+	}
+}

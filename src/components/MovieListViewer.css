@@ -19,7 +19,6 @@
 .movieListViewer_listWrapped > * {
 	transition: 300ms all ease-out;
 	flex: 0 1;
-	flex-basis: 200px;
 }
 
 .item-enter-active {
