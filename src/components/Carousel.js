@@ -29,11 +29,19 @@ const Carousel = ({ movieDetails, bottomText, bottomTextTitle }) => {
 
 	return (
 		<div className="carousel" onPointerEnter={() => setHovering(true)} onPointerLeave={() => setHovering(false)}>
-			<div className="carousel_images">
-				{images.map((image, index) => (
-					<img className="carousel_image" src={image} key={image} alt={`${index} poster`} onClick={shiftImages} />
-				))}
-			</div>
+			{images?.length >= 3 ? (
+				<div className="carousel_images">
+					{images.map((image, index) => (
+						<img className="carousel_image" src={image} key={image} alt={`${index} poster`} onClick={shiftImages} />
+					))}
+				</div>
+			) : (
+				<div className="carousel_images">
+					<div className="carousel_image">
+						<h3 className="carousel_imageNoPosters">NO POSTERS AVAILABLE</h3>
+					</div>
+				</div>
+			)}
 			<p>
 				<b style={{ color: '#f5c518' }}>{bottomTextTitle} </b>
 				{bottomText || ' abc, aksjd aisod, pasoid aoisd'}
