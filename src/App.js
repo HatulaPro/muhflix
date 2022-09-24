@@ -4,18 +4,21 @@ import { BrowserRouter } from 'react-router-dom';
 import { APIContextProvider } from './contexts/APIContext';
 import Router from './Router';
 import ThemeHandler from './contexts/ThemeHandler';
+import { MovieInfoContextProvider } from './contexts/MovieInfoContext';
 
 function App() {
 	return (
 		<div className="app">
-			<APIContextProvider>
-				<ThemeHandler>
-					<BrowserRouter basename="/muhflix/">
-						<Header />
-						<Router />
-					</BrowserRouter>
-				</ThemeHandler>
-			</APIContextProvider>
+			<MovieInfoContextProvider>
+				<APIContextProvider>
+					<ThemeHandler>
+						<BrowserRouter basename="/muhflix/">
+							<Header />
+							<Router />
+						</BrowserRouter>
+					</ThemeHandler>
+				</APIContextProvider>
+			</MovieInfoContextProvider>
 		</div>
 	);
 }

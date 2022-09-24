@@ -5,36 +5,40 @@ import './TopMovie.css';
 import TrailerView from './TrailerView';
 import { useMediaQuery } from 'react-responsive';
 import Carousel from './Carousel';
-import MovieDetails from './MovieDetails';
 import { APIContext } from '../contexts/APIContext';
+import { MovieInfoContext } from '../contexts/MovieInfoContext';
 
 const TopMovie = ({ movie }) => {
 	const [movieDetails, setMovieDetails] = useState(null);
 	const [showTrailer, setShowTrailer] = useState(false);
-	const [showInfo, setShowInfo] = useState(false);
 	const isSmallScreen = useMediaQuery({ maxWidth: 992 });
 	const [apiKey, setApiKey] = useContext(APIContext);
+	const [, setCurrentMovie, moviesCache] = useContext(MovieInfoContext);
 
 	useEffect(() => {
 		async function getData() {
-			const res = await getMovieDetails(apiKey, movie.id);
-			if (res.data.errorMessage) {
-				setApiKey({ ...apiKey, enabled: false });
+			if (moviesCache.has(movie.id)) {
+				setMovieDetails(moviesCache.get(movie.id));
 			} else {
-				setMovieDetails(res.data);
+				const res = await getMovieDetails(apiKey, movie.id);
+				if (res.data.errorMessage) {
+					setApiKey({ ...apiKey, enabled: false });
+				} else {
+					setMovieDetails(res.data);
+				}
 			}
 		}
 		if (movie) {
 			getData();
 		}
-	}, [movie, apiKey, setApiKey]);
+	}, [movie, apiKey, setApiKey, moviesCache]);
 
 	function handleTrailerOpen() {
 		setShowTrailer(!showTrailer);
 	}
 
 	function handleInfoOpen() {
-		setShowInfo(!showInfo);
+		setCurrentMovie(movie.id, movieDetails);
 	}
 
 	const backgroundImage = { backgroundImage: `url(${movieDetails?.trailer.thumbnailUrl})` };
@@ -44,7 +48,6 @@ const TopMovie = ({ movie }) => {
 		movie && (
 			<div className="topMovie">
 				{<TrailerView trailer={movieDetails?.trailer} show={showTrailer} update={handleTrailerOpen} />}
-				<MovieDetails show={showInfo} update={handleInfoOpen} movieDetails={movieDetails} />
 				<div className="topMovie_main" style={isSmallScreen ? {} : backgroundImage}>
 					<div className="topMovie_info">
 						<h1 className="topMovie_title" style={isSmallScreen ? backgroundImage : {}}>
